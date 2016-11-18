@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Faculty
-description: "At the frontiers of Robotics Research"
+description: "Pushing the frontiers of Robotics Research"
 image:
   feature: plains.jpg
 ---
@@ -9,7 +9,7 @@ image:
   <div class="row">
     <div class="col-sm-4">
     <div class="thumbnail">
-      <img src="images/headshot.jpg" alt="Dan Aukes">
+      <img class="img-responsive" src="{{site.base_path}}/assets/images/headshot.jpg" alt="Dan Aukes">
       <div class="caption">
         <h3>Daniel M. Aukes</h3>
         <p><span class="badge">Poly</span> <span class="badge">Design</span></p>

@@ -1,9 +1,9 @@
-address: 
+address:
   - Address Line 1
   - Address Line 2
   - City, State, AZ 12345
 
-phone: 480-727-1234  
+phone: 480-727-1234
 
 email: email@asu.edu
 
@@ -17,22 +17,28 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
-      layout: "post"      
+      layout: "post"
 
 base_path: "/asurobotics"
 
 kramdown:
   input: GFM
   auto_ids: true
-highlighter: pygments
+highlighter: rouge
 
-organization_name: Your Organization Name
-title: Your Site Title
+organization_name: ASU Robotics
+title: ASU Robotics
 
 menu:
-  - name: Test1
-    link: test1
-  - name: Test2
-    link: test2
-    
+  - name: Faculty
+    link: faculty
+  - name: Labs
+    link: labs
+  - name: Courses
+    link: courses
+  - name: Resources
+    link: resources
+  - name: Get Involved
+    link: get-involved
+
 tags: a,b,c,d
