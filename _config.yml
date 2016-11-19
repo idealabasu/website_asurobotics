@@ -42,4 +42,15 @@ menu:
   - name: Get Involved
     link: get-involved
 
+    
+faculty:
+  - name: Dan Aukes
+    image: headshot.jpg
+    email: danaukes@asu.edu
+    lab_link: http://idealab.asu.edu
+  - name: Panos Polygerinos
+    image: headshot.png
+    email: danaukes@asu.edu
+    lab_link: http://idealab.asu.edu
+
 tags: a,b,c,d
