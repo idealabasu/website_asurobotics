@@ -10,7 +10,7 @@ Already Here?
 =========
 
 * Find a [lab]({{site.base_path}}/labs/)
-* Take a [class]({{site.base_path}}/courses/)}})
+* Take a [class]({{site.base_path}}/courses/)
 
 Join ASU
 ==========
