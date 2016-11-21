@@ -6,37 +6,37 @@ image:
   feature: plains.jpg
 ---
 <div class="container">
-  <div class="row">
+
+{% for tag in site.faculty_tags %}
+  <a href="{{tag.link}}"><span class="badge">{{tag.name}}</span></a>
+{% endfor %}
+
+  {% for item in site.faculty %}
+    {%capture ii %}{{ forloop.index0 | modulo: 3 }}{%endcapture%}
+    {% if ii == '0' %}
+    <div class="row">
+    {% endif %}
     <div class="col-sm-4">
     <div class="thumbnail">
-      <img class="img-responsive" src="{{site.base_path}}/assets/images/headshot.jpg" alt="Dan Aukes">
+      <img class="img-responsive" src="{{site.base_path}}{{item.image}}" alt="Dan Aukes">
       <div class="caption">
-        <h3>Daniel M. Aukes</h3>
-        <p><span class="badge">Poly</span> <span class="badge">Design</span></p>
-        <p>Here is his information</p>
-        <p><a href="#" class="btn btn-primary" role="button">Lab Website</a></p>
+        <h3>{{item.name}}</h3>
+        <p>
+          {% for tag in item.tags %}
+            {% for tag2 in site.faculty_tags %}
+              {% if tag == tag2.name %}
+              <a href="{{tag2.link}}"><span class="badge">{{tag2.name}}</span></a>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </p>
+        <p>{{item.description}}</p>
+        <p><a href="{[item.lab_link]}" class="btn btn-primary" role="button">Lab Website</a></p>
       </div>
     </div>
     </div>
-    <div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
+    {% if ii == '2' %}
     </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-    </div>
-  </div>
+    {% endif %}
+    {% endfor %}
 </div>

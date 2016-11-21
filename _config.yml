@@ -42,15 +42,45 @@ menu:
   - name: Get Involved
     link: get-involved
 
+faculty_tags:
+  - name: poly
+    link: faculty_poly
+  - name: tempe
+    link: faculty_tempe
+  - name: control
+    link: control
+  - name: design
+    link: design
     
 faculty:
   - name: Dan Aukes
-    image: headshot.jpg
+    image: /assets/images/headshot.jpg
     email: danaukes@asu.edu
     lab_link: http://idealab.asu.edu
+    tags: [poly, design]
+    description: Dan Aukes works on Design, Manufacturing, and Robotics, building design tools to make making robots easier
   - name: Panos Polygerinos
-    image: headshot.png
+    image: /assets/images/headshot.png
     email: danaukes@asu.edu
     lab_link: http://idealab.asu.edu
-
+    tags: [tempe, control]
+    description: I want to talk about something here and I just want it to be different
+  - name: Wenlong Zhang
+    image: /assets/images/asu_logo.svg
+    email: danaukes@asu.edu
+    lab_link: http://idealab.asu.edu
+    tags: [tempe, control]
+    description: I want to talk about something here and I just want it to be different
+  - name: Panos Artemiadis
+    image: /assets/images/asu_logo.svg
+    email: danaukes@asu.edu
+    lab_link: http://idealab.asu.edu
+    tags: [tempe, control]
+    description: I want to talk about something here and I just want it to be different
+  - name: Sara Hohenshelt
+    image: /assets/images/asu_logo.svg
+    email: danaukes@asu.edu
+    lab_link: http://idealab.asu.edu
+    tags: [tempe, control]
+    description: I want to talk about something here and I just want it to be different
 tags: a,b,c,d
