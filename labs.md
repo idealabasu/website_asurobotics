@@ -20,10 +20,10 @@ image:
     {% endif %}
     <div class="col-sm-4">
     <div class="thumbnail">
-      {%comment%}<img class="img-responsive" src="..." alt="lab image">{%endcomment%}
+      <p><a href="{{item.lab_link}}"><img class="img-responsive" src="{{site.base_path}}{{item.lab_image}}" alt="lab image"></a></p>
       <div class="caption">
-        <h3>{{item.lab_name}}</h3>
-        <p><a href="{{item.lab_link}}">{{item.lab_link}}</a></p>
+        <h3><a href="{{item.lab_link}}">{{item.lab_name}}</a></h3>
+        <p></p>
         <p>{{item.lab_description}}</p>
         <p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
       </div>

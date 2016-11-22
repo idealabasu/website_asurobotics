@@ -18,7 +18,7 @@ image:
     {% endif %}
     <div class="col-sm-4">
     <div class="thumbnail">
-      <img class="img-responsive" src="{{site.base_path}}{{item.image}}" alt="Dan Aukes">
+      <img class="img-responsive" src="{{site.base_path}}{{item.image}}" alt="image">
       <div class="caption">
         <h3>{{item.name}}</h3>
         <p><a href="email:{{item.email}}">{{item.email}}</a></p>
