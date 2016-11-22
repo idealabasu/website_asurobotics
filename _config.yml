@@ -56,7 +56,7 @@ faculty:
     systems, system identification, brain-machine interfaces, rehabilitation robotics,
     neuro-robotics, orthotics, human motor control, mechatronics and human-robot interaction.
   email: panagiotis.artemiadis@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: The HORC Lab focuses on the design, development and control of
     robotic devices that will help and collaborate with humans in every-day life.
   lab_image: /assets/images/aukes-lab.jpg
@@ -72,7 +72,7 @@ faculty:
     and integration of novel robotic systems and mechatronic devices that have significant
     potential to improve patient care and human activity.
   email: polygerinos@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: Multidisciplinary laboratory that focuses on research and development
     of biologically inspired mechatronic technologies. Our current focus is to discover
     engineering principles and designs that will guide the development of entirely
@@ -91,7 +91,7 @@ faculty:
     with their surrounding solid, granular, and fluidic environments to develop bio-inspired
     micro/macro robotic systems and programmable interfacial structures.
   email: hmarvi@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: 'Our mission at the Bio-Inspired Robotics, Technology, and Healthcare
     lab (BIRTH lab) is to give "birth" to new robotic technologies inspired by nature. '
   lab_image: /assets/images/aukes-lab.jpg
@@ -106,7 +106,7 @@ faculty:
 - description: Dr.Lee's research focuses on human motor control, physical human-robot
     interaction, and robot-aided neurorehabilitation.
   email: hyunglae.lee@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: Research goals are to 1) identify mechanisms underlying human neuromuscular
     control; 2) innovate physical human-robot interaction by incorporating key principles
     in human motor control into robotics; and 3) advance robot-aided neurorehabilitation.
@@ -127,7 +127,7 @@ faculty:
     unique clinical solutions to injury preventions utilizing both engineering and
     biomedical principles
   email: thurmon.lockhart@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: 'We have created an interdisciplinary research laboratory capable
     of addressing the needs of the older adults by focusing on fall prevention utilizing
     mobile, wireless, ubiquitous and gait sensing technologies.  Injuries associated
@@ -160,7 +160,7 @@ faculty:
 - description: I work on dynamic systems and control, mobile and aerial robotics,
     wearable sensors and connected health, networked and multi-agent systems.
   email: wenlong.zhang@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: 'Development of wearable sensors for mobile healthcare; Modeling
     and control of wearable robots, unmanned vehicles, and networked multi-agent systems. '
   lab_image: /assets/images/aukes-lab.jpg
@@ -176,7 +176,7 @@ faculty:
     and the implications for human/human communication in a world where robots are
     work colleagues, bosses, teachers, friends and even ?lovers?!
   email: pauline.davies@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: We discuss how human-machine interaction can affect religiosity,
     how robots will both disrupt and enhance romantic relationships, the importance
     of cultural sensitivity addressing the disparities that robotics will bring.
@@ -193,7 +193,7 @@ faculty:
     that provably produce target collective behaviors; model the mechanisms of self-organization
     in nature and translate them into robust strategies for robotic swarms.
   email: spring.berman@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: WILL FILL IN LATER
   lab_image: /assets/images/aukes-lab.jpg
   lab_link: http://faculty.engineering.asu.edu/acs/
@@ -216,7 +216,7 @@ faculty:
     active vision, and learning for human-robot interaction. Applications include
     collaborative human-robot assembly and domestic robotics. '
   email: hbenamor@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: The members of the Interactive Robotics Lab at Arizona State University
     explore the intersection of robotics, artificial intelligence, and human-robot
     interaction. Our main research focus is on the development of machine learning
@@ -236,7 +236,7 @@ faculty:
 - description: Modeling and integrating human knowledge and intelligence with computational
     search algorithms for high-dimensional optimal design and control
   email: yiren@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: 'We study computational and crowdsourcing tools that will renovate
     engineering and industrial design activities. '
   lab_image: /assets/images/aukes-lab.jpg
@@ -253,7 +253,7 @@ faculty:
     following neural injury; 3) rehabilitation robotics; 4) brain-machine interfaces;
     5) neuromodulation for enhancing plasticity, sensory perception, and motor performance.'
   email: cbuneo@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: Our research interests are pursued using a combination of human
     psychophysical experiments, neurophysiological experiments, and computational
     modeling.
@@ -270,7 +270,7 @@ faculty:
     of AI and Robotics. The goal of my research is to increase the capacity of both
     humans and machines by bringing them seamlessly together. '
   email: yzhan442@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: 'The research agenda of the Cooperative Robotic Systems (CRS) laboratory
     includes the development of novel modeling methods, robust decision making algorithms,
     as well as system integration and evaluation for cooperative and intelligent agents. '
@@ -287,7 +287,7 @@ faculty:
     ecology to understand how to build flexible, adaptive decision-making algorithms
     for single and multi-agent cyber-physical systems.
   email: tpavlic@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: Interdisciplinary laboratory focused on the analysis of natural
     systems that solve complex problems and the design of artificial systems (robotics
     and automation systems) that are similarly flexible, adaptive, and scalable
@@ -309,7 +309,7 @@ faculty:
     of AI and Robotics. The goal of his research is to increase the capacity of both
     humans and machines by bringing them seamlessly together.
   email: yzhan442@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: The research agenda of the Cooperative Robotic Systems (CRS) laboratory
     includes the development of novel modeling methods, robust decision making algorithms,
     as well as system integration and evaluation for cooperative and intelligent agents.
@@ -326,7 +326,7 @@ faculty:
     hybrid system theory to autonomous vehicles. His main mission is to develop dependable
     and provably correct systems.
   email: fainekos@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: The CPSLab is working on problems related to the foundations of
     Cyber-Physical Systems (CPS). Particular focus is given to developing theories
     and tools for model based development of CPS.
@@ -343,7 +343,7 @@ faculty:
     and exoskeletons.  The systems are used in applications for industry, healthcare,
     and the military
   email: thomas.sugar@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: Design and build wearable robotic systems
   lab_image: /assets/images/aukes-lab.jpg
   lab_link: http://robotics.fulton.asu.edu
@@ -376,7 +376,7 @@ faculty:
     EV3 robots and any open-architecture robots, such as robots based based Intel
     and ARM architectures. VIPLE can used for teaching the 1st programming language.
   email: yinong@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: Develop educational materials for teaching robotics and programming
   lab_image: /assets/images/aukes-lab.jpg
   lab_link: http://neptune.fulton.ad.asu.edu/VIPLE/
@@ -391,7 +391,7 @@ faculty:
     and Robot Vision, especially exploring visual primitives in human action understanding,
     grounding them by natural language as well as AI reasoning for intelligent robots.
   email: yz.yang@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: 'ASU Active Perception Group (APG) approaches the following quests
     from the angle of visual perception: Why do robots perceive, how do robots perceive,
     what do robots perceive and when do robots perceive, to understand us?'
@@ -406,7 +406,7 @@ faculty:
   title: Assistant Professor
 - description: ''
   email: thurmon.lockhart@asu.edu
-  image: /assets/images/aukes-headshot.jpg
+  image: /assets/images/asu_logo.svg
   lab_description: ''
   lab_image: /assets/images/aukes-lab.jpg
   lab_link: http://
@@ -417,6 +417,7 @@ faculty:
   school: SBHSE
   tags: ['']
   title: Professor
+
   
 courses:
 - {Course-Number: EEE 480/591, Faculty: Rodriguez, Keywords: '', Level: Graduate,
