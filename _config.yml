@@ -19,8 +19,8 @@ defaults:
     values:
       layout: "post"
 
-base_path: "/asurobotics"
-#base_path: ""
+#base_path: "/asurobotics"
+base_path: ""
 
 kramdown:
   input: GFM
@@ -53,34 +53,356 @@ faculty_tags:
     link: design
     
 faculty:
-  - name: Dan Aukes
-    image: /assets/images/headshot.jpg
-    email: danaukes@asu.edu
-    lab_link: http://idealab.asu.edu
-    tags: [poly, design]
-    description: Dan Aukes works on Design, Manufacturing, and Robotics, building design tools to make making robots easier
-  - name: Panos Polygerinos
-    image: /assets/images/headshot.png
-    email: danaukes@asu.edu
-    lab_link: http://idealab.asu.edu
-    tags: [tempe, control]
-    description: I want to talk about something here and I just want it to be different
-  - name: Wenlong Zhang
+  - description: My research interests mainly lie in the areas of robotics, control
+      systems, system identification, brain-machine interfaces, rehabilitation robotics,
+      neuro-robotics, orthotics, human motor control, mechatronics and human-robot interaction.
+    email: panagiotis.artemiadis@asu.edu
     image: /assets/images/asu_logo.svg
-    email: danaukes@asu.edu
-    lab_link: http://idealab.asu.edu
-    tags: [tempe, control]
-    description: I want to talk about something here and I just want it to be different
-  - name: Panos Artemiadis
+    lab_description: The HORC Lab focuses on the design, development and control of
+      robotic devices that will help and collaborate with humans in every-day life.
+    lab_link: http://horc.engineering.asu.edu
+    lab_name: Human-Oriented Robotics and Control (HORC) Lab
+    lab_school: ECE116, PEBE 174
+    name: Panos Artemiadis
+    other_keywords: Rehabilitation, Swarms
+    school: SEMTE
+    tags: [Controls, Neural, Bio-robotics, Dynamics, Mechatronics]
+    title: Assistant Professor
+  - description: Realization of tasks that are essential to the design, implementation
+      and integration of novel robotic systems and mechatronic devices that have significant
+      potential to improve patient care and human activity.
+    email: polygerinos@asu.edu
     image: /assets/images/asu_logo.svg
-    email: danaukes@asu.edu
-    lab_link: http://idealab.asu.edu
-    tags: [tempe, control]
-    description: I want to talk about something here and I just want it to be different
-  - name: Sara Hohenshelt
+    lab_description: Multidisciplinary laboratory that focuses on research and development
+      of biologically inspired mechatronic technologies. Our current focus is to discover
+      engineering principles and designs that will guide the development of entirely
+      new approaches for wearable assistive devices and soft robotics with the goal
+      to transform patient care and human activity.
+    lab_link: biomech.asu.edu
+    lab_name: Bio-Inspired Mechatronics Lab
+    lab_school: Polytechnic Campus
+    name: Panagiotis (Panos) Polygerinos
+    other_keywords: ''
+    school: The Polytechnic School
+    tags: [Design, Bio-robotics, Mechatronics]
+    title: Assistant Professor
+  - description: We study fundamental physics behind interactions of biological systems
+      with their surrounding solid, granular, and fluidic environments to develop bio-inspired
+      micro/macro robotic systems and programmable interfacial structures.
+    email: hmarvi@asu.edu
     image: /assets/images/asu_logo.svg
-    email: danaukes@asu.edu
+    lab_description: 'Our mission at the Bio-Inspired Robotics, Technology, and Healthcare
+      lab (BIRTH lab) is to give "birth" to new robotic technologies inspired by nature. '
+    lab_link: birth.asu.edu
+    lab_name: BIRTH Lab
+    lab_school: Tempe
+    name: Hamid Marvi
+    other_keywords: 'Micro-robotics, Bio-inspired Design '
+    school: SEMTE
+    tags: [Design, Bio-robotics, Dynamics, Mechatronics]
+    title: Assistant Professor
+  - description: Dr.Lee's research focuses on human motor control, physical human-robot
+      interaction, and robot-aided neurorehabilitation.
+    email: hyunglae.lee@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: Research goals are to 1) identify mechanisms underlying human neuromuscular
+      control; 2) innovate physical human-robot interaction by incorporating key principles
+      in human motor control into robotics; and 3) advance robot-aided neurorehabilitation.
+    lab_link: faculty.engineering.asu.edu/hlee
+    lab_name: Neuromuscular Control and Human Robotics Laboratory (NeuroRobotics Lab)
+    lab_school: Tempe
+    name: Hyunglae Lee
+    other_keywords: Rehabilitation
+    school: School for Engineering of Matter, Transport, and Energy (SEMTE)
+    tags: [Controls, Design, Neural, Bio-robotics, Mechatronics]
+    title: Assistant Professor
+  - description: My current research and publications concern the identification of
+      injury mechanisms and quantification of sensorimotor deficits and movement disorders
+      associated with aging and neurological disorders on fall accidents. I have academic
+      grounding in biomechanical modeling, nonlinear dynamical systems, human postural
+      control, and gait mechanics, which underscore a fundamental capacity to provide
+      unique clinical solutions to injury preventions utilizing both engineering and
+      biomedical principles
+    email: thurmon.lockhart@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: 'We have created an interdisciplinary research laboratory capable
+      of addressing the needs of the older adults by focusing on fall prevention utilizing
+      mobile, wireless, ubiquitous and gait sensing technologies.  Injuries associated
+      with fall incidences continue to pose a significant burden to older adults both
+      in terms of human suffering and economic losses.  Among older adults, falls are
+      a growing public health concern, responsible for over 424,000 deaths and 37.3
+      million emergency department visits worldwide (WHO, 2012), and 30,209 deaths and
+      2.4 million emergency department visits nationwide costing over $67.7 billion
+      annually (CDC, 2015).  The strategic partners include Barrow Neurological Institute
+      and Mayo Clinic researchers focusing on rehabilitation and fall prevention and
+      ASU researchers focusing human factors, gaming, sensing, machine learning and
+      software engineering.
+
+      Our lab offers the opportunity for an inter-disciplinary team of scientific, engineering,
+      health care, and business professionals to collaborate under one physical and
+      organizational structure dedicated to rapid development of interactive fall prevention
+      technologies.  The facility houses a comprehensive suite of instrumentation that
+      enables end-to-end development of devices/intervention methods for rapid reduction
+      to clinical practice.  '
+    lab_link: http://faculty.engineering.asu.edu/lockhart/
+    lab_name: Locomotion Research Laboratory
+    lab_school: PEBE 153
+    name: Thurmon Lockhart
+    other_keywords: Accidental Falls, movement variability, postural control, nonlinear
+      dynamics, biosensors
+    school: ASU
+    tags: [Machine Learning & AI, Dynamics]
+    title: Professor of Biomedical Engineering
+  - description: I work on dynamic systems and control, mobile and aerial robotics,
+      wearable sensors and connected health, networked and multi-agent systems.
+    email: wenlong.zhang@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: 'Development of wearable sensors for mobile healthcare; Modeling
+      and control of wearable robots, unmanned vehicles, and networked multi-agent systems. '
+    lab_link: http://faculty.engineering.asu.edu/zhang
+    lab_name: Robotics and Intelligent Systems Laboratory
+    lab_school: 189 Tech Center, Poly Campus
+    name: Wenlong Zhang
+    other_keywords: Sensors
+    school: The Polytechnic School
+    tags: [Controls, Machine Learning & AI, Dynamics, Mechatronics]
+    title: Assistant Professor
+  - description: Our group of Human Communication specialists studies human/robot interaction
+      and the implications for human/human communication in a world where robots are
+      work colleagues, bosses, teachers, friends and even ?lovers?!
+    email: pauline.davies@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: We discuss how human-machine interaction can affect religiosity,
+      how robots will both disrupt and enhance romantic relationships, the importance
+      of cultural sensitivity addressing the disparities that robotics will bring.
+    lab_link: N/A
+    lab_name: Human Communication Robotics Group
+    lab_school: Tempe
+    name: Pauline Davies
+    other_keywords: Human interaction, cultural, verbal communication, non-verbal communication
+    school: Hugh Downs School of Human Communication
+    tags: [Design]
+    title: Professor of Practice
+  - description: Develop control frameworks for designing distributed robot behaviors
+      that provably produce target collective behaviors; model the mechanisms of self-organization
+      in nature and translate them into robust strategies for robotic swarms.
+    email: spring.berman@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: WILL FILL IN LATER
+    lab_link: http://faculty.engineering.asu.edu/acs/
+    lab_name: Autonomous Collective Systems Laboratory
+    lab_school: Tempe campus
+    name: Spring Berman
+    other_keywords: Multi-robot systems, Bioinspiration/Biomimetics, Planning, Navigation,
+      Human-robot interaction, Multi-legged robots, Soft robots, Compliance, Aerial
+      robots, Micro-nano robots, Medical robots, Exoskeletons, Prosthetics, Rehabilitation
+      robotics, Humanoids, Mobile robots, Articulated robots, Modular robots, Localization
+      and mapping, Field robots, Space robots, Underwater robots, Sensors, Actuators,
+      Locomotion, Industrial robots, Perception, Bipedal robots, Manufacturing, Sensor
+      networks, Autonomy, Grasping, Manipulation, Force control, Haptics, Computer vision,
+      Ethics, Societal issues, Robotics education
+    school: School for Engineering of Matter, Transport & Energy
+    tags: [Controls, Dynamics]
+    title: Assistant Professor
+  - description: 'I develop new machine learning methods for teaching motor skills to
+      robots. This includes approaches such as, reinforcement learning, imitation learning,
+      active vision, and learning for human-robot interaction. Applications include
+      collaborative human-robot assembly and domestic robotics. '
+    email: hbenamor@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: The members of the Interactive Robotics Lab at Arizona State University
+      explore the intersection of robotics, artificial intelligence, and human-robot
+      interaction. Our main research focus is on the development of machine learning
+      methods that allow humanoid robots to behave in an intelligent and autonomous
+      manner. They enable robots to gradually increase their repertoire of skills, e.g.,
+      grasping objects,  manipulation, or walking, without additional effort for a human
+      programmer.
+    lab_link: http://interactive-robotics.engineering.asu.edu/
+    lab_name: Interactive Robotics Laboratory
+    lab_school: Centerpoint  203-07
+    name: Heni Ben Amor
+    other_keywords: Human-Robot Interaction
+    school: SCIDSE
+    tags: [Controls, Machine Learning & AI, Vision, Neural]
+    title: Assistant Professor
+  - description: Modeling and integrating human knowledge and intelligence with computational
+      search algorithms for high-dimensional optimal design and control
+    email: yiren@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: 'We study computational and crowdsourcing tools that will renovate
+      engineering and industrial design activities. '
+    lab_link: http://designinformaticslab.github.io/
+    lab_name: Design Informatics Lab
+    lab_school: GWC435
+    name: Yi (Max)
+    other_keywords: ''
+    school: SEMTE
+    tags: [Design, Machine Learning & AI]
+    title: Ren
+  - description: 'My research interests include the following: 1) neural mechanisms
+      of multisensory and sensorimotor integration; 2) plasticity and recovery of function
+      following neural injury; 3) rehabilitation robotics; 4) brain-machine interfaces;
+      5) neuromodulation for enhancing plasticity, sensory perception, and motor performance.'
+    email: cbuneo@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: Our research interests are pursued using a combination of human
+      psychophysical experiments, neurophysiological experiments, and computational
+      modeling.
+    lab_link: http://sbhse.engineering.asu.edu/faculty-and-staff/faculty/christopher-buneo/
+    lab_name: Visuomotor Learning Lab
+    lab_school: Tempe
+    name: Christopher Buneo
+    other_keywords: ''
+    school: SBHSE
+    tags: [Neural, Bio-robotics]
+    title: Associate Professor
+  - description: 'Dr. Yu ("Tony") Zhang''s research interests are on the intersection
+      of AI and Robotics. The goal of my research is to increase the capacity of both
+      humans and machines by bringing them seamlessly together. '
+    email: yzhan442@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: 'The research agenda of the Cooperative Robotic Systems (CRS) laboratory
+      includes the development of novel modeling methods, robust decision making algorithms,
+      as well as system integration and evaluation for cooperative and intelligent agents. '
+    lab_link: http://www.public.asu.edu/~yzhan442/CRS
+    lab_name: Cooperative Robotic Systems (CRS) laboratory
+    lab_school: TBD
+    name: Yu
+    other_keywords: Human-machine systems
+    school: CIDSE
+    tags: [Machine Learning & AI]
+    title: Assistant Professor
+  - description: I use methods from optimization, control, dynamics, and behavioral
+      ecology to understand how to build flexible, adaptive decision-making algorithms
+      for single and multi-agent cyber-physical systems.
+    email: tpavlic@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: Interdisciplinary laboratory focused on the analysis of natural
+      systems that solve complex problems and the design of artificial systems (robotics
+      and automation systems) that are similarly flexible, adaptive, and scalable
+    lab_link: http://pavliclab.org/
+    lab_name: Science and Engineering of Autonomous Decision-making Systems (SEADS)
+      Lab
+    lab_school: Tempe
+    name: Theodore (Ted) Pavlic
+    other_keywords: biomimicry, bio-inspired, bio-inspiration, multi-agent systems,
+      intelligent control, decision making, resource allocation, autonomous systems,
+      optimization, operations research, spatial computing, amorphous computing, cyber-physical
+      systems, sustainabiity, built environment
+    school: School of Computing, Informatics, and Decision Systems Engineering / School
+      of Sustainability
+    tags: [Controls, Machine Learning & AI, Neural, Bio-robotics, Dynamics]
+    title: Assistant Professor
+  - description: Dr. Yu ("Tony") Zhang's research interests are on the intersection
+      of AI and Robotics. The goal of his research is to increase the capacity of both
+      humans and machines by bringing them seamlessly together.
+    email: yzhan442@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: The research agenda of the Cooperative Robotic Systems (CRS) laboratory
+      includes the development of novel modeling methods, robust decision making algorithms,
+      as well as system integration and evaluation for cooperative and intelligent agents.
+    lab_link: http://www.public.asu.edu/~yzhan442/CRS.html
+    lab_name: Cooperative Robotic Systems (CRS) laboratory
+    lab_school: TBD
+    name: Yu
+    other_keywords: Human-machine systems
+    school: CIDSE
+    tags: [Machine Learning & AI]
+    title: Assistant Professor
+  - description: Prof. Fainekos works on the application of formal methods, logic, and
+      hybrid system theory to autonomous vehicles. His main mission is to develop dependable
+      and provably correct systems.
+    email: fainekos@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: The CPSLab is working on problems related to the foundations of
+      Cyber-Physical Systems (CPS). Particular focus is given to developing theories
+      and tools for model based development of CPS.
+    lab_link: http://www.public.asu.edu/~gfaineko/
+    lab_name: Cyber-Physical Systems Lab
+    lab_school: Centerpoint, Tempe
+    name: Georgios Fainekos
+    other_keywords: ''
+    school: School of Computing, Informatics and Decision Systems Engineering
+    tags: [Controls, Machine Learning & AI, Dynamics]
+    title: Associate Professor
+  - description: Develop wearable robotic systems that include prosthetics, orthoses,
+      and exoskeletons.  The systems are used in applications for industry, healthcare,
+      and the military
+    email: thomas.sugar@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: Design and build wearable robotic systems
+    lab_link: http://robotics.fulton.asu.edu
+    lab_name: The Human Machine Integration Laboratory
+    lab_school: The Polytechnic Campus
+    name: Thomas Sugar
+    other_keywords: ''
+    school: The Polytechnic School
+    tags: [Controls, Design, Bio-robotics, Mechatronics]
+    title: Professor
+  - description: My focus is to develop new tools for designing robots by pairing emerging
+      fabrication techniques and new materials with analytical and simulation-based
+      methods for understanding the behavior of these complex systems.
+    email: daniel.aukes@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: Its focus is to develop new tools for designing robots by pairing
+      emerging fabrication techniques and new materials with analytical and simulation-based
+      methods for understanding the behavior of these complex systems.
     lab_link: http://idealab.asu.edu
-    tags: [tempe, control]
-    description: I want to talk about something here and I just want it to be different
+    lab_name: IDEAlab
+    lab_school: Polytechnic Campus
+    name: Daniel Aukes
+    other_keywords: ''
+    school: Polytechnic School
+    tags: [Design, Dynamics, Mechatronics]
+    title: Assistant Professor
+  - description: Developed Robot as a Service (RaaS) concepts and implementations. Developed
+      Visual IoT/Robotics Programming Language Environment that can be used to program
+      EV3 robots and any open-architecture robots, such as robots based based Intel
+      and ARM architectures. VIPLE can used for teaching the 1st programming language.
+    email: yinong@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: Develop educational materials for teaching robotics and programming
+    lab_link: http://neptune.fulton.ad.asu.edu/VIPLE/
+    lab_name: IoT and Robotics Education Lab
+    lab_school: Brickyard 452
+    name: Yinong Chen
+    other_keywords: ''
+    school: SCIDSE
+    tags: [Controls, Design]
+    title: Senior Lecturer
+  - description: Dr. Yang's primary interests lie in Cognitive Robotics, Computer Vision,
+      and Robot Vision, especially exploring visual primitives in human action understanding,
+      grounding them by natural language as well as AI reasoning for intelligent robots.
+    email: yz.yang@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: 'ASU Active Perception Group (APG) approaches the following quests
+      from the angle of visual perception: Why do robots perceive, how do robots perceive,
+      what do robots perceive and when do robots perceive, to understand us?'
+    lab_link: http://yezhouyang.engineering.asu.edu/research-group/
+    lab_name: Active Perception Group
+    lab_school: Brickyard Building 5th floor
+    name: Yezhou Yang
+    other_keywords: 'Manipulation; Human Robot Interaction; '
+    school: School of Computing, Informatics, and Decision Systems Engineering
+    tags: [Machine Learning & AI, Vision, Neural]
+    title: Assistant Professor
+  - description: ''
+    email: thurmon.lockhart@asu.edu
+    image: /assets/images/asu_logo.svg
+    lab_description: ''
+    lab_link: ''
+    lab_name: ''
+    lab_school: ''
+    name: Thurmon Lockhart
+    other_keywords: ''
+    school: SBHSE
+    tags: ['']
+    title: Professor
+
+
+
+
+    
+
+    
 tags: a,b,c,d
