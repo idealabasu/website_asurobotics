@@ -21,6 +21,7 @@ image:
       <img class="img-responsive" src="{{site.base_path}}{{item.image}}" alt="image">
       <div class="caption">
         <h3>{{item.name}}</h3>
+        <h4>{{item.title}}</h4>
         <p><a href="email:{{item.email}}">{{item.email}}</a></p>
         <p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span>{% endfor %}</p>
         <p>
