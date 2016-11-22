@@ -1,7 +1,10 @@
 {
   "name": "bootstrap-asu",
   "description": "A base implementation of the ASU Web Standards",
-  "main": "build/css/bootstrap-asu.min.css",
+  "main": [
+    "build/css/bootstrap-asu.min.css",
+    "build/js/bootstrap-asu.min.js"
+  ],
   "authors": [
     "The Julie Ann Wrigley Global Institute of Sustainability <giosweb@asu.edu>"
   ],
@@ -16,13 +19,19 @@
     "coverage",
     "node_modules",
     "bower_components",
-    "scss",
     "template",
     "test",
     "tests"
   ],
   "devDependencies": {
-    "font-awesome": "^4.5.0",
+    "font-awesome": "~4.6",
+    "jquery": "~2.2.0",
+    "qunit": "~1.15.0",
+    "moment": "^2.15.1",
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#^10.1.0",
+    "fastclick": "^1.0.6"
+  },
+  "dependencies": {
     "bootstrap": "^3.3.6"
   }
 }
