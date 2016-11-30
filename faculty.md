@@ -12,13 +12,20 @@ image:
 {% endfor %}
 {%endcomment%}
   {% for item in site.faculty %}
-    {%capture ii %}{{ forloop.index0 | modulo: 3 }}{%endcapture%}
+    {% capture ii %}{{ forloop.index0 | modulo: 3 }}{% endcapture %}
     {% if ii == '0' %}
     <div class="row">
     {% endif %}
     <div class="col-sm-4">
+      <p>
+        {% for item2 in site.images %}
+        {% if item2.name == item.name %}
+        {% capture image %}{{item2.image}}{% endcapture %}     
+        {% endif %}
+        {% endfor %}
+      </p>
     <div class="thumbnail">
-      <img class="img-responsive" src="{{site.base_path}}{{item.image}}" alt="image">
+      <img class="img-responsive" src="{{site.base_path}}/assets/headshots/{{image}}" alt="image">
       <div class="caption">
         <h3>{{item.name}}</h3>
         <h4>{{item.title}}</h4>
