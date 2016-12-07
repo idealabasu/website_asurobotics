@@ -9,8 +9,9 @@ import os
 import csv
 import yaml
 
-a = 'Robotics Website Info (Responses).csv'
-b = 'C:/Users/daukes/Dropbox (ASU)/downloads'
+a = 'Robotics Website Info Standarized - Form Responses 1.csv'
+#b = 'C:/Users/daukes/Dropbox (ASU)/downloads'
+b = './'
 c = os.path.normpath(os.path.join(b,a))
 
 with open(c) as f:

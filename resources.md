@@ -5,11 +5,17 @@ description: Learn how to access robotics resources on campus
 image:
   feature: plains.jpg
 ---
+Tempe Campus
+============
 
-Polytechnic School
+Campus Maker Space
+-----------
+
+
+
+Polytechnic Campus
 ======
-The Polytechnic School, one of the six Fulton Schools of Engineering at Arizona State University, is ideally equipped to perform the research duties outlined in this proposal.  Research on the Polytechnic campus  primarily takes place in the Technology Center, which is recently expanded its research capabilities to encompass an ~ 875 square-foot motion-capture lab and three new robotics lab spaces in Fall 2016
-
+The Polytechnic School, one of the six Fulton Schools of Engineering at Arizona State University, is ideally equipped to help you with your next robotics project.  Research on the Polytechnic campus  primarily takes place in the Technology Center, which is recently expanded its research capabilities to encompass an ~ 875 square-foot motion-capture lab and three new robotics lab spaces in Fall 2016.
 
 Startup Lab
 -----------
