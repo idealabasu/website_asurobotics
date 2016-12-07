@@ -1,9 +1,6 @@
 ---
-layout: page
 title: Robotics Resources
 description: Learn how to access robotics resources on campus
-image:
-  feature: plains.jpg
 ---
 Tempe Campus
 ============

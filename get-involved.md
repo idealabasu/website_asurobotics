@@ -1,9 +1,6 @@
 ---
-layout: page
 title: Get Involved
 description: Learn how to get involved in robotics initiatives
-image:
-  feature: plains.jpg
 ---
 
 Already Here?
@@ -45,3 +42,74 @@ There are several majors which are compatible with robotics topics, offered in o
 * SEMTE: Mechanical Engineering(B.S.)[more info]()
 * CIDSE: Computer Science(B.S)[more info]()
 * ECEE: Electrical Engineering(B.S)[more info]()
+
+{%comment%}
+<div class="col-md-4">
+
+<h2>
+Ph.D. Programs
+</h2>
+
+<ul>
+<li>
+Polytechnic: Systems Engineering(Ph.D.) <a href="http://poly.engineering.asu.edu/engineering/ph-d-in-systems-engineering/">more info</a></li>
+<li>
+SEMTE: Mechanical Engineering(Ph.D.) <a href="">more info</a></li>
+<li>
+CIDSE: Computer Science(Ph.D.) <a href="">more info</a>
+</li>
+<li>
+ECEE: Electrical Engineering(Ph.D.)<a href="">more info</a>
+</li>
+</ul>
+</div>
+
+<div class="col-md-4">
+
+<h2>
+Masters Programs
+</h2>
+
+<ul>
+<li>
+Polytechnic: Engineering(M.S.) <a href="http://poly.engineering.asu.edu/engineering/ms-engineering/">more info</a>
+</li>
+<li>
+SEMTE: Mechanical Engineering(M.S.) 
+</li>
+<li>
+CIDSE: Computer Science(M.S)<a href="">more info</a>
+</li>
+<li>
+ECEE: Electrical Engineering(M.S)<a href="">more info</a>
+</li>
+</ul>
+
+</div>
+<div class="col-md-4">
+
+<h2>
+Undergraduate Programs
+</h2>
+
+<p>
+There are several majors which are compatible with robotics topics, offered in one of our schools.
+</p>
+
+<ul>
+<li>
+Polytechnic: Engineering(B.S.E) with robotics concentration <a href="https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/TSEGRBSE/undergrad/false?init=false&nopassive=true">more info</a>
+</li>
+<li>
+SEMTE: Mechanical Engineering(B.S.)<a href="">more info</a>
+</li>
+<li>
+CIDSE: Computer Science(B.S)<a href="">more info</a>
+</li>
+<li>
+ECEE: Electrical Engineering(B.S)<a href="">more info</a>
+</li>
+</ul>
+
+</div>
+{%endcomment%}

@@ -2,8 +2,6 @@
 layout: default
 title: Faculty
 description: "Pushing the frontiers of Robotics Research"
-image:
-  feature: plains.jpg
 ---
 <div class="container">
 {%comment%}

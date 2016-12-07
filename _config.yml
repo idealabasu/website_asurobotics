@@ -11,7 +11,9 @@ defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: page
+      image:
+        feature: 18470766606_05e0dfb6cc_k-1024x683.jpg
   - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
