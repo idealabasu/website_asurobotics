@@ -31,7 +31,6 @@ for entry in entries:
     for key in filtered_keys:
         entry.pop(key)
 #    
-file_structure = {}
-file_structure['images']=entries
-with open('images.yaml', 'w') as f:
-    yaml.dump(file_structure,f)
+with open('../_data/faculty_images.yml', 'w') as f:
+    yaml.dump(entries,f)
+

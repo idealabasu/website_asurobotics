@@ -6,3 +6,4 @@ _site
 /assets/bootstrap/nuget
 
 /assets/jquery/src
+*.pyc

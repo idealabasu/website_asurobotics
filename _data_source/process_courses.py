@@ -40,7 +40,5 @@ for entry in entries:
 #    entry['image'] = '/assets/images/aukes-headshot.jpg'
 #    entry['lab_image'] = '/assets/images/aukes-lab.jpg'
 #    
-file_structure = {}
-file_structure['courses']=entries
-with open('output2.yaml', 'w') as f:
-    yaml.dump(file_structure,f)
+with open('../_data/courses.yml', 'w') as f:
+    yaml.dump(entries,f)

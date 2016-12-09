@@ -11,14 +11,14 @@ image:
   <a href="{{tag.link}}"><span class="badge">{{tag.name}}</span></a>
 {% endfor %}
 {%endcomment%}
-  {% for item in site.faculty %}
+  {% for item in site.data.faculty %}
     {% capture ii %}{{ forloop.index0 | modulo: 3 }}{% endcapture %}
     {% if ii == '0' %}
     <div class="row">
     {% endif %}
     <div class="col-sm-4">
       <p>
-        {% for item2 in site.images %}
+        {% for item2 in site.data.faculty_images %}
         {% if item2.name == item.name %}
         {% capture image %}{{item2.image}}{% endcapture %}     
         {% endif %}

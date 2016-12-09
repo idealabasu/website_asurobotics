@@ -11,7 +11,7 @@ description: Learn about the work being done across schools
 {% endfor %}
 {%endcomment%}
 
-  {% for item in site.faculty %}
+  {% for item in site.data.faculty %}
     {%capture ii %}{{ forloop.index0 | modulo: 3 }}{%endcapture%}
     {% if ii == '0' %}
     <div class="row">
