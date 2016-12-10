@@ -34,14 +34,14 @@ image:
             {% for tag in item.tags %}
               {% for tag2 in site.faculty_tags %}
                 {% if tag == tag2.name %}
-                <a href="{{tag2.link}}"><span class="badge">{{tag2.name}}</span></a> 
+                <a href="{{tag2.link}}"><span class="badge">{{tag2.name}}</span></a>
                 {% endif %}
               {% endfor %}
           {% endfor %}
           {%endcomment%}
         </p>
         <p>{{item.description}}</p>
-        <p><a href="{{item.lab_link}}" class="btn btn-primary" role="button">Lab Website</a></p>
+        <p><a href="{{item.lab_link}}" title="{{item.lab_link}}" target="_blank">{{item.lab_link}} <i class="fa fa-external-link"></i></a></p>
       </div>
     </div>
     </div>
