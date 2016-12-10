@@ -7,6 +7,17 @@
   School: POLY, Syllabus: '', Syllabus-Link: '', Title: Robotics Systems 1, link: 'https://provost.asu.edu/sites/default/files/shared/BSE%20%28Robotics%29%20proposal%2011-9-12-2.pdf'}
 - {Course-Number: EGR 456, Faculty: Sodeman, Keywords: '', Level: Undergraduate, School: POLY,
   Syllabus: '', Syllabus-Link: '', Title: Robotics Systems II, link: ''}
+- {Course-Number: EGR598, Faculty: Aukes, Keywords: 'Design, simulate, analyze, and
+    prototype low-cost robotic devices using digital fabrication techniques like laser
+    cutting and the python programming language', Level: Graduate, School: POLY, Syllabus: '',
+  Syllabus-Link: '', Title: Foldable Robotics, link: 'http://idealab.asu.edu/2016/070/foldable-robotics.html'}
+- {Course-Number: EGR598, Faculty: Polygerinos, Keywords: Design new mechatronic healthcare
+    and assistive devices with local physicians, Level: Graduate, School: POLY, Syllabus: '',
+  Syllabus-Link: '', Title: Mechatronics Device Innovation, link: 'https://biomech.asu.edu/node/125'}
+- {Course-Number: EGR598, Faculty: Zhang, Keywords: 'Topics include new development
+    of modeling and control theories and their applications to robotics, manufacturing,
+    and intelligent transportation systems. ', Level: Graduate, School: POLY, Syllabus: '',
+  Syllabus-Link: '', Title: System Control and Optimization, link: 'http://faculty.engineering.asu.edu/zhang/wp-content/uploads/2015/09/EGR598-Zhang-Poster.pdf'}
 - {Course-Number: MAE 318, Faculty: 'Artemiadis, Peet, Berman', Keywords: 'System
     dynamics, linear systems, feedback control, stability, root locus, Bode plots',
   Level: Undergraduate, School: SEMTE, Syllabus: '', Syllabus-Link: '', Title: System
@@ -24,11 +35,15 @@
 - {Course-Number: MAE 547, Faculty: Marvi, Keywords: 'Modeling of robots, kinematics,
     dynamics, differential kinematics, control of robots', Level: Graduate, School: SEMTE,
   Syllabus: '', Syllabus-Link: '', Title: Modeling and Control of robots, link: ''}
+- {Course-Number: MAE 598, Faculty: Berman, Keywords: TBD, Level: Graduate, School: SEMTE,
+  Syllabus: '', Syllabus-Link: '', Title: Multi-Robot Systems, link: ''}
 - {Course-Number: MAE 598/SES 598, Faculty: 'Thanga, Asphaug', Keywords: 'robotic
     spacecraft, space exploration, systems engineering, hardware design', Level: Graduate,
   School: SEMTE/SESE, Syllabus: '', Syllabus-Link: '', Title: Interplanetary CubeSat
     Design, link: ''}
-- {Course-Number: MAE 598 (Fall 2016), Faculty: Berman, Keywords: TBD, Level: Graduate,
-  School: SEMTE, Syllabus: '', Syllabus-Link: '', Title: Multi-Robot Systems, link: ''}
-- {Course-Number: EGR598, Faculty: Aukes, Keywords: Foldable Robotics, Level: Graduate,
-  School: POLY, Syllabus: '', Syllabus-Link: '', Title: Foldable Robotics, link: 'http://idealab.asu.edu/2016/070/foldable-robotics.html'}
+- {Course-Number: '', Faculty: '', Keywords: '', Level: '', School: '', Syllabus: '',
+  Syllabus-Link: '', Title: '', link: ''}
+- {Course-Number: '', Faculty: '', Keywords: '', Level: '', School: '', Syllabus: '',
+  Syllabus-Link: '', Title: '', link: ''}
+- {Course-Number: '', Faculty: '', Keywords: '', Level: '', School: '', Syllabus: '',
+  Syllabus-Link: '', Title: '', link: ''}
