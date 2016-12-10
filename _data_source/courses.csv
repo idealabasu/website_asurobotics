@@ -1,7 +1,7 @@
 Course Number,link,Title,School,Level,Faculty,Syllabus,Syllabus Link,Keywords
 EEE 480/591,,Feedback Control Systems,ECEE,Graduate,Rodriguez,,,
 EEE 582,,Linear System Theory,ECEE,Graduate,Rodriguez,,,
-EGR 356,https://provost.asu.edu/sites/default/files/shared/BSE%20%28Robotics%29%20proposal%2011-9-12-2.pdf,Robotics Systems 1,POLY,Undergraduate,Sodeman,,,Concentration Proposal
+EGR 356,https://provost.asu.edu/sites/default/files/shared/BSE%20%28Robotics%29%20proposal%2011-9-12-2.pdf,Robotics Systems 1,POLY,Undergraduate,Sodeman,,,
 EGR 456,,Robotics Systems II,POLY,Undergraduate,Sodeman,,,
 EGR598,http://idealab.asu.edu/2016/070/foldable-robotics.html,Foldable Robotics,POLY,Graduate,Aukes,,,"Design, simulate, analyze, and prototype low-cost robotic devices using digital fabrication techniques like laser cutting and the python programming language"
 EGR598,https://biomech.asu.edu/node/125,Mechatronics Device Innovation,POLY,Graduate,Polygerinos,,,Design new mechatronic healthcare and assistive devices with local physicians
@@ -11,5 +11,5 @@ MAE 506,,"Advanced System Modeling, Dynamics, and Control",SEMTE,Graduate,Berman
 MAE 508,,Digital Control: Design and Implementation,SEMTE,Graduate,Artemiadis,,,"Digital control, digital systems, microprocessor control, estimation, filtering"
 MAE 510,,Dynamics and Vibrations,SEMTE,Graduate,Mignolet,,,
 MAE 547,,Modeling and Control of robots,SEMTE,Graduate,Marvi,,,"Modeling of robots, kinematics, dynamics, differential kinematics, control of robots"
-MAE 598,,Multi-Robot Systems,SEMTE,Graduate,Berman,,,TBD
+MAE 598,,Multi-Robot Systems,SEMTE,Graduate,Berman,,,
 MAE 598/SES 598,,Interplanetary CubeSat Design,SEMTE/SESE,Graduate,"Thanga, Asphaug",,,"robotic spacecraft, space exploration, systems engineering, hardware design"
