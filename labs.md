@@ -18,7 +18,12 @@ description: Learn about the work being done across schools
     {% endif %}
     <div class="col-sm-4">
     <div class="thumbnail">
-      <p><a href="{{item.lab_link}}"><img class="img-responsive" src="{{site.base_path}}{{item.lab_image}}" alt="lab image"></a></p>
+      {% for item2 in site.data.lab_images %}
+      {% if item2.name == item.name %}
+      {% capture image %}{{item2.image}}{% endcapture %}     
+      {% endif %}
+      {% endfor %}
+      <p><a href="{{item.lab_link}}"><img class="img-responsive" src="{{site.base_path}}/assets/labs/{{image}}" alt="lab image"></a></p>
       <div class="caption">
         <h3><a href="{{item.lab_link}}">{{item.lab_name}}</a></h3>
         <p></p>

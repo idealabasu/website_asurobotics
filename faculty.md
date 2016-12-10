@@ -17,13 +17,11 @@ image:
     <div class="row">
     {% endif %}
     <div class="col-sm-4">
-      <p>
         {% for item2 in site.data.faculty_images %}
         {% if item2.name == item.name %}
         {% capture image %}{{item2.image}}{% endcapture %}     
         {% endif %}
         {% endfor %}
-      </p>
     <div class="thumbnail">
       <img class="img-responsive" src="{{site.base_path}}/assets/headshots/{{image}}" alt="image">
       <div class="caption">
