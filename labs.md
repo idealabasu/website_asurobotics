@@ -2,6 +2,7 @@
 layout: default
 title: Research Labs
 description: Learn about the work being done across schools
+permalink: /labs/
 ---
 
 {% assign sorted_labs = site.data.faculty | sort:"lab_name" %}

@@ -1,9 +1,8 @@
 ---
-layout: default
 title: Research Labs
 description: Learn about the work being done across schools
+permalink: /faculty2/
 ---
-<div class="container">
 <style type="text/css">
   .noborder {border:0px;
   border-color:rgb(255,255,255);
@@ -11,18 +10,12 @@ description: Learn about the work being done across schools
   background-color:rgb(255,255,255);}
 </style>
 
-{% assign last_names_list = site.data.faculty | sort:"lab_name" %}
-{% for item2 in last_names_list %}
-  <p>{{item2.name}}</p>
-{% endfor %}
-
-
 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-Collapsible Group 1</a>
+<span class="badge">tag1</span></a>
 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-Collapsible Group 2</a>
+<span class="badge">tag2</span></a>
 <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-Collapsible Group 3</a>
+<span class="badge">tag3</span></a>
 
 <div class="panel-group" id="accordion">
  <div class="noborder panel panel-default">
@@ -49,6 +42,4 @@ Collapsible Group 3</a>
    commodo consequat.
    </div>
  </div>
-</div>
-
 </div>

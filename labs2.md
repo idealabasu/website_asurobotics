@@ -2,6 +2,7 @@
 layout: default
 title: Research Labs
 description: Learn about the work being done across schools
+permalink: /labs2/
 ---
 <div class="container">
 

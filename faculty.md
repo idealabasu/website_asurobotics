@@ -4,6 +4,7 @@ title: Faculty
 description: "Pushing the frontiers of Robotics Research"
 image:
   feature: basketball_robot016.jpg
+permalink: /faculty/
 ---
 <div class="container">
 
