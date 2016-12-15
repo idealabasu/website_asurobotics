@@ -1,8 +1,19 @@
 ---
+layout: default
 title: ASU Robotics
 description: "Innovating in the field of Robotics"
+carousel-images:
+  - 2016-12-02 16.49.57.jpg
+  - 2016-10-14 15.07.51.jpg
+  - DiscoverEDay-2016-Poly-9628a.jpg
+  - DiscoverEDay-2016-Poly-9642a.jpg
+  - DiscoverEDay-2016-Poly-9653a.jpg
+  - DiscoverEDay-2016-Poly-9637a.jpg
+  - DiscoverEDay-2016-Poly-9693a.jpg
 ---
-
+<style type="text/css">
+  .carousel-caption {bottom:none; top:500px;
+</style>
 {%comment%}
 <div class="jumbotron">
   <div class="container">
@@ -10,8 +21,11 @@ description: "Innovating in the field of Robotics"
 </div>
 {%endcomment%}
 
+<div class="container">
+
+<h2>
 Get Involved
--------------
+</h2>
 
 <div class="row">
     <div class="col-md-4 text-center">
@@ -34,8 +48,45 @@ Get Involved
     </div>
 </div>
 
+<div id="carousel-example-generic" class="carousel slide"  style="max-height: 700px; overflow: hidden;" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+  {% for item in page.carousel-images %}
+  {% capture ii %}{{ forloop.index0 }}{% endcapture %}
+    <li data-target="#carousel-example-generic" data-slide-to="{{ii}}"{% if ii == '0' %} class="active"{% endif %}></li>
+  {%endfor%}
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  {% for item in page.carousel-images %}
+  {% capture ii %}{{ forloop.index0 }}{% endcapture %}
+    <div class="item{% if ii == '0' %} active{% endif %}">
+      <img src="{{site.base_path}}/assets/images/carousel/{{item}}" alt="...">
+{%comment%}
+      <div class="carousel-caption">
+        This is a caption
+      </div>
+{%endcomment%}
+
+    </div>
+{%endfor%}
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<h2>
 Our Mission
------------
+</h2>
 
 <div class="row" style="margin-top:0;">
 <div class="col-md-6">
@@ -80,7 +131,6 @@ Our Mission
 </div>
 </div>
 
-
 {%comment%}
 1. Help drive positive change in society by connecting researchers at Arizona State University to collaboratively pursue advancements in robotics technologies, systems and education that will serve our most critical needs.
 1. Solve our problems more quickly and effectively by utilizing ASU’s growing, multidisciplinary research community and expanding its impact by establishing high-quality research relationships with industry, government and the public.
@@ -88,8 +138,10 @@ Our Mission
 1. Nurture the next generation of robotics researchers through innovative educational practices, in-lab experiences and mentoring in entrepreneurship that create opportunities for students to develop their creative abilities, trains them to be skilled problem solvers and prepares them to establish themselves in the robotics community and in industry.
 {%endcomment%}
 
+<h2>
 Join our Community
-------------
+</h2>
+
 <div class="row space-bot-xl" style="margin-top:0;">
 <div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://webapp4.asu.edu/programs/t5/graduate/false"><button class="btn btn-blue btn-block btn-lg">Explore degrees</button></a></h3>
 </div>
@@ -97,4 +149,7 @@ Join our Community
 </div>
 <div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-gold btn-block btn-lg">Request information</button></a></h3>
 </div>
+</div>
+
+
 </div>
