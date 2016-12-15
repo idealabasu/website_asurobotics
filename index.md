@@ -3,13 +3,19 @@ layout: default
 title: ASU Robotics
 description: "Innovating in the field of Robotics"
 carousel-images:
+  - DiscoverEDay-2016-Poly-9642a.jpg
+  - 20160901PanagiotisArtemiadis03.jpg
   - 2016-12-02 16.49.57.jpg
   - 2016-10-14 15.07.51.jpg
   - DiscoverEDay-2016-Poly-9628a.jpg
-  - DiscoverEDay-2016-Poly-9642a.jpg
-  - DiscoverEDay-2016-Poly-9653a.jpg
   - DiscoverEDay-2016-Poly-9637a.jpg
   - DiscoverEDay-2016-Poly-9693a.jpg
+  - 12973087_10207425984500397_2859409810083467075_o.jpg
+  - 13217446_10207661186940311_4240935783057552354_o.jpg
+  - DSCF6893small.jpg
+  - vlcsnap-2015-04-01-09h59m23s59.png
+  - IMG_20160727_122058653.jpg
+  - Mind Drones.00_03_24_28.Still003.jpg
 ---
 <style type="text/css">
   .carousel-caption {bottom:none; top:500px;

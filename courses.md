@@ -2,6 +2,8 @@
 title: Robotics Courses
 description: Explore the range of topics under the Robotics Umbrella
 permalink: /courses/
+image:
+  feature: "Mind-Drones.00_00_57_12.Still001.jpg"
 ---
 
 
