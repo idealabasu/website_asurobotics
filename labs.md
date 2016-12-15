@@ -14,8 +14,8 @@ description: Learn about the work being done across schools
 {% capture school_tags %}{% for item in site.data.faculty %}{{ item.school }},{% endfor %}{%endcapture%}
 {% assign school_tag_words = school_tags | split:',' | sort | uniq %}
 
-<p>{% for tag in tag_words %}<a href="#"><span class="badge">{{tag}}</span></a> {% endfor %}</p>
-<p>{% for tag in school_tag_words %}<a href="#"><span class="badge">{{tag}}</span></a> {% endfor %}</p>
+<p>{% for tag in tag_words %}<a href=""><span class="badge">{{tag}}</span></a> {% endfor %}</p>
+<p>{% for tag in school_tag_words %}<a href=""><span class="badge">{{tag}}</span></a> {% endfor %}</p>
 
 
 {%comment%}

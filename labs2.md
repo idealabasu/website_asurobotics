@@ -18,4 +18,10 @@ description: Learn about the work being done across schools
   <p>{{item.lab_name}}:  {{item.name}}</p>
 {% endfor %}
 
+<button data-toggle="collapse" data-target="#demo">Collapsible</button>
+
+<div id="demo" class="collapse">
+Lorem ipsum dolor text....
+</div>
+
 </div>
