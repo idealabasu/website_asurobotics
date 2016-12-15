@@ -34,18 +34,11 @@ carousel-images:
   .carousel-caption {bottom:none; top:500px;
 </style>
 
-Tempe Campus
-============
 
-Campus Maker Space
------------
-
-Polytechnic Campus
-======
+## Polytechnic Campus
 The Polytechnic School, one of the six Fulton Schools of Engineering at Arizona State University, is ideally equipped to help you with your next robotics project.  Research on the Polytechnic campus  primarily takes place in the Technology Center, which is recently expanded its research capabilities to encompass an ~ 875 square-foot motion-capture lab and three new robotics lab spaces in Fall 2016.
 
-Startup Lab
------------
+### Startup Lab
 
 <p><a href="{{item.lab_link}}" title="{{item.lab_link}}" target="_blank">https://poly.engineering.asu.edu/research/startuplabs/ <i class="fa fa-external-link"></i></a></p>
 
@@ -108,3 +101,7 @@ This equipment is available to students for class, project, and personal use.
 <div class="col-sm-2">
 </div>
 </div>
+
+## Tempe Campus
+
+### Campus Maker Space
