@@ -3,6 +3,9 @@ layout: default
 title: Research Labs
 description: Learn about the work being done across schools
 ---
+
+{% assign sorted_labs = site.data.faculty | sort:"lab_name" %}
+
 <div class="container">
 
 {%comment%}
@@ -11,7 +14,8 @@ description: Learn about the work being done across schools
 {% endfor %}
 {%endcomment%}
 
-  {% for item in site.data.faculty %}
+{% for item in sorted_labs %}
+
     {%capture ii %}{{ forloop.index0 | modulo: 3 }}{%endcapture%}
     {% if ii == '0' %}
     <div class="row">

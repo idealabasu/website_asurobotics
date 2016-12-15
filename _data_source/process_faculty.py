@@ -21,13 +21,13 @@ with open(c) as f:
 
 entries = []
 keys = rows[0]
-short_keys = ['time','name','title','email','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school','asu_unique','proud_of','personal_website_goals','external_communication','internal_communication','username']
+short_keys = ['time','first_name','last_name','name','title','email','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school','asu_unique','proud_of','personal_website_goals','external_communication','internal_communication','username']
 for row in rows[1:]:
     entry = dict([(key,value) for key,value in zip(short_keys,row)])
     print(entry)
     entries.append(entry)
 
-filtered_keys = ['name','title','email','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school']
+filtered_keys = ['name','first_name','last_name','title','email','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school']
 filtered_keys = set(short_keys)-set(filtered_keys)
 for entry in entries:
     for key in filtered_keys:
