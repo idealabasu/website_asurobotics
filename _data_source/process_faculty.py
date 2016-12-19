@@ -9,7 +9,7 @@ import os
 import csv
 import yaml
 
-a = 'Robotics Website Info Standarized - Form Responses 1.csv'
+a = 'Robotics Website Info Standardized - Form Responses 1.csv'
 #b = 'C:/Users/daukes/Dropbox (ASU)/downloads'
 b = './'
 c = os.path.normpath(os.path.join(b,a))
