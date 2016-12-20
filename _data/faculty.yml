@@ -269,8 +269,9 @@
   school: SEMTE
   tags: [Design, Machine Learning & AI]
   title: Assistant Professor
-- description: Compilers and micro architectures for embedded systems, including techniques
-    for power, performance reliability, temperature and code size improvement
+- description: 'Timing in robotic systems: Time-sensitive programming, timing specifications
+    of robotic systems, time predictable architectures, compilers, and operating systems
+    for robotic systems.'
   email: Aviral.Shrivastava@asu.edu
   first_name: Aviral
   image: /assets/images/asu_logo.svg
@@ -284,7 +285,7 @@
   other_keywords: ''
   school: CIDSE
   tags: ['']
-  title: Assistant Professr
+  title: Associate Professr
 - description: Develop wearable robotic systems that include prosthetics, orthoses,
     and exoskeletons.  The systems are used in applications for industry, healthcare,
     and the military.
