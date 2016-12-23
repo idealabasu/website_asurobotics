@@ -20,7 +20,7 @@
           <div class="caption">
             <h3>{{item.name}}</h3>
             <h4>{{item.title}}, {{item.school-name}}</h4>
-            <p><a href="email:{{item.email}}">{{item.email}}</a></p>
+            <p><a href="mailto:{{item.email}}">{{item.email}}</a></p>
             <p>{{item.description}}</p>
             <p><a href="{{item.lab_link}}" title="{{item.lab_link}}" target="_blank">{{item.lab_link}} <i class="fa fa-external-link"></i></a></p>
             <p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
