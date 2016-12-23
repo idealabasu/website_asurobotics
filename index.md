@@ -29,6 +29,22 @@ carousel-images:
 
 <div class="container">
 
+<h2>News</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a></br>
+      <em>{{ post.date | date: '%B %d, %Y' }}</em>
+      {% if post.custom_excerpt %}
+        <p>{{ post.custom_excerpt }}</p>
+      {% else %}
+        {{ post.excerpt }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+
 <h2>
 Get Involved
 </h2>
@@ -156,6 +172,5 @@ Join our Community
 <div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-gold btn-block btn-lg">Request information</button></a></h3>
 </div>
 </div>
-
 
 </div>

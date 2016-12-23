@@ -42,6 +42,8 @@ menu:
     link: resources
   - name: Get Involved
     link: get-involved
+  - name: News
+    link: news
 
 faculty_tags:
   - name: poly
