@@ -21,13 +21,13 @@ with open(c) as f:
 
 entries = []
 keys = rows[0]
-short_keys = ['time','first_name','last_name','name','title','email','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school','asu_unique','proud_of','personal_website_goals','external_communication','internal_communication','username']
+short_keys = ['time','first_name','last_name','name','title','email','school-name', 'school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school','asu_unique','proud_of','personal_website_goals','external_communication','internal_communication','username']
 for row in rows[1:]:
     entry = dict([(key,value) for key,value in zip(short_keys,row)])
     print(entry)
     entries.append(entry)
 
-filtered_keys = ['name','first_name','last_name','title','email','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school']
+filtered_keys = ['name','first_name','last_name','title','email','school-name','school','description','tags','other_keywords','lab_name','lab_link','lab_description','lab_school']
 filtered_keys = set(short_keys)-set(filtered_keys)
 for entry in entries:
     for key in filtered_keys:
@@ -35,9 +35,11 @@ for entry in entries:
     if not entry['lab_link'].startswith('http://'):
         entry['lab_link'] = 'http://'+entry['lab_link']
     entry['image']='/assets/images/asu_logo.svg'
-    entry['tags'] = [item.strip(' ') for item in entry['tags'].split(',')]
+    entry['tags'] = [item.strip(' ').replace(' ','-') for item in entry['tags'].split(',')]
+    entry['school'] = entry['school'].strip(' ').replace(' ','-')
     entry['image'] = '/assets/images/asu_logo.svg'
     entry['lab_image'] = '/assets/images/aukes-lab.jpg'
+    entry['tags'] = entry['tags']
     
 with open('../_data/faculty.yml', 'w') as f:
     yaml.dump(entries,f)

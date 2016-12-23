@@ -1,0 +1,38 @@
+{% for name in filtered_faculty2 %}
+  {% capture ii %}{{ forloop.index0 | modulo: 3 }}{% endcapture %}
+
+  {% for ll in site.data.faculty %}
+    {% if name == ll.name %}
+      {% assign item = ll %}
+    {% endif %}
+  {% endfor %}
+  {% if ii == '0' %}
+    <div class="row">
+  {% endif %}
+      <div class="col-sm-4">
+        {% for item2 in site.data.faculty_images %}
+          {% if item2.name == item.name %}
+            {% capture image %}{{item2.image}}{% endcapture %}     
+          {% endif %}
+        {% endfor %}
+        <div class="thumbnail">
+          <img class="img-responsive" src="{{site.base_path}}/assets/headshots/{{image}}" alt="image">
+          <div class="caption">
+            <h3>{{item.name}}</h3>
+            <h4>{{item.title}}, {{item.school-name}}</h4>
+            <p><a href="email:{{item.email}}">{{item.email}}</a></p>
+            <p>{{item.description}}</p>
+            <p><a href="{{item.lab_link}}" title="{{item.lab_link}}" target="_blank">{{item.lab_link}} <i class="fa fa-external-link"></i></a></p>
+            <p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
+          </div>
+        </div>
+      </div>
+  {% if ii == '2' %}
+    </div>
+  {% endif %}
+
+{% endfor %}
+
+{% if ii != '2' %}
+  </div>
+{% endif %}

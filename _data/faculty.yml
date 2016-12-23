@@ -15,6 +15,7 @@
   name: Panos Artemiadis
   other_keywords: Rehabilitation, Swarms
   school: SEMTE
+  school-name: SEMTE
   tags: [Controls, Neural, Bio-robotics, Dynamics, Mechatronics]
   title: Assistant Professor
 - description: Develop new tools for designing robots by pairing emerging fabrication
@@ -34,6 +35,7 @@
   name: Daniel Aukes
   other_keywords: ''
   school: POLY
+  school-name: POLY
   tags: [Design, Dynamics, Mechatronics]
   title: Assistant Professor
 - description: Machine learning methods for teaching motor skills to robots with approaches
@@ -53,7 +55,8 @@
   name: Heni Ben Amor
   other_keywords: Human-Robot Interaction
   school: CIDSE
-  tags: [Controls, Machine Learning & AI, Vision, Neural]
+  school-name: CIDSE
+  tags: [Controls, Machine-Learning-and-AI, Vision, Neural]
   title: Assistant Professor
 - description: Develop control frameworks for designing distributed robot behaviors
     that provably produce target collective behaviors; model mechanisms of self-organization
@@ -79,6 +82,7 @@
     networks, Autonomy, Grasping, Manipulation, Force control, Haptics, Computer vision,
     Ethics, Societal issues, Robotics education
   school: SEMTE
+  school-name: SEMTE
   tags: [Controls, Dynamics]
   title: Assistant Professor
 - description: Focusing on neural mechanisms of multisensory and sensorimotor integration;
@@ -98,6 +102,7 @@
   name: Christopher Buneo
   other_keywords: ''
   school: SBHSE
+  school-name: SBHSE
   tags: [Neural, Bio-robotics]
   title: Associate Professor
 - description: Develop Robot as a Service (RaaS) concepts and implementations, visual
@@ -115,6 +120,7 @@
   name: Yinong Chen
   other_keywords: ''
   school: CIDSE
+  school-name: CIDSE
   tags: [Controls, Design]
   title: Senior Lecturer
 - description: "Studies on human/robot interaction and the implications for human/human\
@@ -133,7 +139,8 @@
   last_name: Davies
   name: Pauline Davies
   other_keywords: Human interaction, cultural, verbal communication, non-verbal communication
-  school: Hugh Downs School of Human Communication
+  school: Hugh-Downs-School
+  school-name: Hugh Downs School of Human Communication
   tags: [Design]
   title: Professor of Practice
 - description: Application of formal methods, logic, and hybrid system theory to autonomous
@@ -152,7 +159,8 @@
   name: Georgios Fainekos
   other_keywords: ''
   school: CIDSE
-  tags: [Controls, Machine Learning & AI, Dynamics]
+  school-name: CIDSE
+  tags: [Controls, Machine-Learning-and-AI, Dynamics]
   title: Associate Professor
 - description: Research on human motor control, physical human-robot interaction,
     and robot-aided neurorehabilitation.
@@ -170,6 +178,7 @@
   name: Hyunglae Lee
   other_keywords: Rehabilitation
   school: SEMTE
+  school-name: SEMTE
   tags: [Controls, Design, Neural, Bio-robotics, Mechatronics]
   title: Assistant Professor
 - description: Research on the identification of injury mechanisms and movement disorders
@@ -190,7 +199,8 @@
   other_keywords: Accidental Falls, movement variability, postural control, nonlinear
     dynamics, biosensors
   school: SBHSE
-  tags: [Machine Learning & AI, Dynamics]
+  school-name: SBHSE
+  tags: [Machine-Learning-and-AI, Dynamics]
   title: Professor of Biomedical Engineering
 - description: Study fundamental physics behind interactions of biological systems
     with their surrounding solid, granular, and fluidic environments to develop bio-inspired
@@ -208,6 +218,7 @@
   name: Hamid Marvi
   other_keywords: 'Micro-robotics, Bio-inspired Design '
   school: SEMTE
+  school-name: SEMTE
   tags: [Design, Bio-robotics, Dynamics, Mechatronics]
   title: Assistant Professor
 - description: Use of methods from optimization, control, dynamics, and behavioral
@@ -231,7 +242,8 @@
     optimization, operations research, spatial computing, amorphous computing, cyber-physical
     systems, sustainabiity, built environment
   school: CIDSE
-  tags: [Controls, Machine Learning & AI, Neural, Bio-robotics, Dynamics]
+  school-name: CIDSE
+  tags: [Controls, Machine-Learning-and-AI, Neural, Bio-robotics, Dynamics]
   title: Assistant Professor
 - description: Realization of tasks that are essential to the design, implementation
     and integration of novel robotic systems and mechatronic devices that have significant
@@ -250,6 +262,7 @@
   name: Panagiotis (Panos) Polygerinos
   other_keywords: ''
   school: POLY
+  school-name: POLY
   tags: [Design, Bio-robotics, Mechatronics]
   title: Assistant Professor
 - description: Modeling and integrating human knowledge and intelligence with computational
@@ -267,7 +280,8 @@
   name: Yi (Max) Ren
   other_keywords: ''
   school: SEMTE
-  tags: [Design, Machine Learning & AI]
+  school-name: SEMTE
+  tags: [Design, Machine-Learning-and-AI]
   title: Assistant Professor
 - description: 'Timing in robotic systems: Time-sensitive programming, timing specifications
     of robotic systems, time predictable architectures, compilers, and operating systems
@@ -284,8 +298,9 @@
   name: Aviral Shrivastava
   other_keywords: ''
   school: CIDSE
+  school-name: CIDSE
   tags: ['']
-  title: Associate Professr
+  title: Associate Professor
 - description: Develop wearable robotic systems that include prosthetics, orthoses,
     and exoskeletons.  The systems are used in applications for industry, healthcare,
     and the military.
@@ -301,6 +316,7 @@
   name: Thomas Sugar
   other_keywords: ''
   school: POLY
+  school-name: POLY
   tags: [Controls, Design, Bio-robotics, Mechatronics]
   title: Professor
 - description: Cognitive Robotics, Computer Vision, and Robot Vision, especially exploring
@@ -320,7 +336,8 @@
   name: Yezhou Yang
   other_keywords: 'Manipulation; Human Robot Interaction; '
   school: CIDSE
-  tags: [Machine Learning & AI, Vision, Neural]
+  school-name: CIDSE
+  tags: [Machine-Learning-and-AI, Vision, Neural]
   title: Assistant Professor
 - description: Research on dynamic systems and control, mobile and aerial robotics,
     wearable sensors and connected health, networked and multi-agent systems.
@@ -338,7 +355,8 @@
   name: Wenlong Zhang
   other_keywords: Sensors
   school: POLY
-  tags: [Controls, Machine Learning & AI, Dynamics, Mechatronics]
+  school-name: POLY
+  tags: [Controls, Machine-Learning-and-AI, Dynamics, Mechatronics]
   title: Assistant Professor
 - description: 'Research on the intersection of AI and Robotics in order to increase
     the capacity of both humans and machines by bringing them seamlessly together. '
@@ -356,5 +374,6 @@
   name: Yu(Tony) Zhang
   other_keywords: Human-machine systems
   school: CIDSE
-  tags: [Machine Learning & AI]
+  school-name: CIDSE
+  tags: [Machine-Learning-and-AI]
   title: Assistant Professor
