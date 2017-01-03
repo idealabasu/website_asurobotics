@@ -57,8 +57,13 @@
 - {Course-Number: MAE 547, Faculty: Marvi, Keywords: 'Modeling of robots, kinematics,
     dynamics, differential kinematics, control of robots', Level: Graduate, School: SEMTE,
   Syllabus: '', Syllabus-Link: '', Title: Modeling and Control of robots, link: ''}
-- {Course-Number: MAE 598, Faculty: Berman, Keywords: '', Level: Graduate, School: SEMTE,
-  Syllabus: '', Syllabus-Link: '', Title: Multi-Robot Systems, link: ''}
+- {Course-Number: MAE 598, Faculty: Berman, Keywords: "This course combines seminar-style\
+    \ discussions of research on multi-robot systems with instruction on the theoretical\
+    \ foundations of this research. \_Students\_learn approaches to modeling, analyzing,\
+    \ and controlling multi-robot systems using stochastic processes, graph theoretic\
+    \ methods, geometric concepts, dynamical systems theory, control theory, topology,\_\
+    and optimization techniques.\_", Level: Graduate, School: SEMTE, Syllabus: '',
+  Syllabus-Link: '', Title: Multi-Robot Systems, link: ''}
 - {Course-Number: MAE 598/SES 598, Faculty: 'Thanga, Asphaug', Keywords: 'robotic
     spacecraft, space exploration, systems engineering, hardware design', Level: Graduate,
   School: SEMTE/SESE, Syllabus: '', Syllabus-Link: '', Title: Interplanetary CubeSat
