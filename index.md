@@ -29,17 +29,13 @@ carousel-images:
 
 <div class="container">
 
-<h2>News</h2>
+<h2><a href="{{site.base_path}}/news">News</a></h2>
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a></br>
+      <a href="{{site.base_path}}{{ post.url }}">{{ post.title }}</a></br>
       <em>{{ post.date | date: '%B %d, %Y' }}</em>
-      {% if post.custom_excerpt %}
-        <p>{{ post.custom_excerpt }}</p>
-      {% else %}
         {{ post.excerpt }}
-      {% endif %}
     </li>
   {% endfor %}
 </ul>
