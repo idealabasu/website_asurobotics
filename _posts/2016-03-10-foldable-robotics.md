@@ -1,10 +1,12 @@
 ---
 title: Foldable Robotics
-description: EGR 598 -- Fall 2016 -- Course 91038
+description: Professor Aukes will be teaching a new EGR598 class this fall called *Foldable Robotics*.
 show_title: true
 ---
 
 Professor Aukes will be teaching a new EGR598 class this fall called *Foldable Robotics*.
+
+EGR 598 -- Fall 2016 -- Course 91038
 
 Description
 -----------
