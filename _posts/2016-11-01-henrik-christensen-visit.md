@@ -3,6 +3,7 @@ description: Dr. Christensen will give a talk titled "Object Based Mapping" on N
 ---
 Abstract
 --------
+
 # ASU Robotics Seminar
 
 Nov 1st at 12:10pm in BYAC 110
