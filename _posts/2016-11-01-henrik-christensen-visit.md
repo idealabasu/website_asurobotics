@@ -1,4 +1,5 @@
 ---
+description: Dr. Christensen will give a talk titled "Object Based Mapping" on Nov 1, 2016
 ---
 Abstract
 --------
