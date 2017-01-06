@@ -38,6 +38,7 @@ line-height: 1.44rem;}
 <div class="panel-group" id="accordion">
   <div class="noborder panel panel-default">
     <div id="all" class="panel-collapse collapse in">
+      <h2>All</h2>
       {% capture filtered_faculty1 %}{% for item3 in sorted_faculty%}{{item3.name}},{% endfor %}{%endcapture%}
       {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
       {% include faculty_list.html %}
@@ -48,6 +49,7 @@ line-height: 1.44rem;}
     {% capture jj %}{{ forloop.index0 }}{% endcapture %}
     <div class="noborder panel panel-default">
       <div id="{{tag3}}" class="panel-collapse collapse">
+        <h2>{{tag3}}</h2>
         {% capture filtered_faculty1 %}{% for item3 in sorted_faculty %}{% for tag4 in item3.tags %}{% if tag3 == tag4 %}{{item3.name}},{% endif %}{% endfor %}{% endfor %}{%endcapture%}
         {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
         {% include faculty_list.html %}
@@ -60,6 +62,7 @@ line-height: 1.44rem;}
     {% capture jj %}{{ forloop.index0 }}{% endcapture %}
     <div class="noborder panel panel-default">
       <div id="{{tag3}}" class="panel-collapse collapse">
+        <h2>{{tag3}}</h2>
         {% capture filtered_faculty1 %}{% for item3 in sorted_faculty %}{% if tag3 == item3.school %}{{item3.name}},{% endif %}{% endfor %}{%endcapture%}
         {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
         {% include faculty_list.html %}
@@ -67,39 +70,3 @@ line-height: 1.44rem;}
     </div>
   {%endfor%}  
 </div>
-{%comment%}
-
-
-
-
-{% for item in sorted_faculty %}
-{% capture ii %}{{ forloop.index0 | modulo: 3 }}{% endcapture %}
-{% if ii == '0' %}
-<div class="row">
-{% endif %}
-<div class="col-sm-4">
-{% for item2 in site.data.faculty_images %}
-{% if item2.name == item.name %}
-{% capture image %}{{item2.image}}{% endcapture %}     
-{% endif %}
-{% endfor %}
-<div class="thumbnail">
-<img class="img-responsive" src="{{site.base_path}}/assets/headshots/{{image}}" alt="image">
-<div class="caption">
-<h3>{{item.name}}</h3>
-<h4>{{item.title}}, {{item.school}}</h4>
-<p><a href="email:{{item.email}}">{{item.email}}</a></p>
-<p>{{item.description}}</p>
-<p><a href="{{item.lab_link}}" title="{{item.lab_link}}" target="_blank">{{item.lab_link}} <i class="fa fa-external-link"></i></a></p>
-<p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
-</div>
-</div>
-</div>
-{% if ii == '2' %}
-</div>
-{% endif %}
-{% endfor %}
-
-
-
-{%endcomment%}
