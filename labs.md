@@ -1,13 +1,19 @@
 ---
-layout: default
 title: Research Labs
 description: Learn about the work being done across schools
 permalink: /labs/
 ---
+<style type="text/css">
+  .noborder {border:0px;
+  border-color:rgb(255,255,255);
+  box-shadow:none;
+  background-color:rgb(255,255,255);}
+  .panel p {font-size: 1.125rem;
+line-height: 1.44rem;}
 
-{% assign sorted_labs = site.data.faculty | sort:"lab_name" %}
+  </style>
 
-<div class="container">
+{% assign sorted_faculty = site.data.faculty | sort:"lab_name" %}
 
 {% capture all_tags %}{% for item in site.data.faculty %}{% for tag in item.tags %}{{ tag }},{% endfor %}{% endfor %}{%endcapture%}
 {% assign tag_words = all_tags | split:',' | sort | uniq %}
@@ -15,40 +21,41 @@ permalink: /labs/
 {% capture school_tags %}{% for item in site.data.faculty %}{{ item.school }},{% endfor %}{%endcapture%}
 {% assign school_tag_words = school_tags | split:',' | sort | uniq %}
 
-<p>{% for tag in tag_words %}<a href=""><span class="badge">{{tag}}</span></a> {% endfor %}</p>
-<p>{% for tag in school_tag_words %}<a href=""><span class="badge">{{tag}}</span></a> {% endfor %}</p>
+<p>Filter by Topic: <a data-toggle="collapse" data-parent="#accordion" href="#all"><span class="badge">All</span></a> {% for tag in tag_words %}<a data-toggle="collapse" data-parent="#accordion" href="#{{tag}}"><span class="badge">{{tag}}</span></a> {% endfor %}</p>
+<p>Filter by School: <a data-toggle="collapse" data-parent="#accordion" href="#all"><span class="badge">All</span></a> {% for tag in school_tag_words %}<a data-toggle="collapse" data-parent="#accordion" href="#{{tag}}"><span class="badge">{{tag}}</span></a> {% endfor %}</p>
 
+<div class="panel-group" id="accordion">
+  <div class="noborder panel panel-default">
+    <div id="all" class="panel-collapse collapse in">
+      <h2>All</h2>
+      {% capture filtered_faculty1 %}{% for item3 in sorted_faculty%}{{item3.name}},{% endfor %}{%endcapture%}
+      {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
+      {% include list_labs.html %}
+    </div>
+  </div>
 
-{%comment%}
-{% for tag in site.faculty_tags %}
-  <a href="{{tag.link}}"><span class="badge">{{tag.name}}</span></a>
-{% endfor %}
-{%endcomment%}
+  {% for tag3 in tag_words%}
+    {% capture jj %}{{ forloop.index0 }}{% endcapture %}
+    <div class="noborder panel panel-default">
+      <div id="{{tag3}}" class="panel-collapse collapse">
+        <h2>{{tag3}}</h2>
+        {% capture filtered_faculty1 %}{% for item3 in sorted_faculty %}{% for tag4 in item3.tags %}{% if tag3 == tag4 %}{{item3.name}},{% endif %}{% endfor %}{% endfor %}{%endcapture%}
+        {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
+        {% include list_labs.html %}
 
-{% for item in sorted_labs %}
-
-    {%capture ii %}{{ forloop.index0 | modulo: 3 }}{%endcapture%}
-    {% if ii == '0' %}
-    <div class="row">
-    {% endif %}
-    <div class="col-sm-4">
-    <div class="thumbnail">
-      {% for item2 in site.data.lab_images %}
-      {% if item2.name == item.name %}
-      {% capture image %}{{item2.image}}{% endcapture %}     
-      {% endif %}
-      {% endfor %}
-      <p><a href="{{item.lab_link}}"><img class="img-responsive" src="{{site.base_path}}/assets/labs/{{image}}" alt="lab image"></a></p>
-      <div class="caption">
-        <h3><a href="{{item.lab_link}}">{{item.lab_name}}</a></h3>
-        <p>{{item.school}}</p>
-        <p>{{item.lab_description}}</p>
-        <p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
       </div>
     </div>
+  {%endfor%}
+
+  {% for tag3 in school_tag_words%}
+    {% capture jj %}{{ forloop.index0 }}{% endcapture %}
+    <div class="noborder panel panel-default">
+      <div id="{{tag3}}" class="panel-collapse collapse">
+        <h2>{{tag3}}</h2>
+        {% capture filtered_faculty1 %}{% for item3 in sorted_faculty %}{% if tag3 == item3.school %}{{item3.name}},{% endif %}{% endfor %}{%endcapture%}
+        {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
+        {% include list_labs.html %}
+      </div>
     </div>
-    {% if ii == '2' %}
-    </div>
-    {% endif %}
-    {% endfor %}
+  {%endfor%}  
 </div>

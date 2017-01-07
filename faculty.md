@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Faculty
 description: "Pushing the frontiers of Robotics Research"
 image:
@@ -27,13 +26,6 @@ line-height: 1.44rem;}
 
 <p>Filter by Topic: <a data-toggle="collapse" data-parent="#accordion" href="#all"><span class="badge">All</span></a> {% for tag in tag_words %}<a data-toggle="collapse" data-parent="#accordion" href="#{{tag}}"><span class="badge">{{tag}}</span></a> {% endfor %}</p>
 <p>Filter by School: <a data-toggle="collapse" data-parent="#accordion" href="#all"><span class="badge">All</span></a> {% for tag in school_tag_words %}<a data-toggle="collapse" data-parent="#accordion" href="#{{tag}}"><span class="badge">{{tag}}</span></a> {% endfor %}</p>
-
-{%comment%}
-<a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="badge">tag1</span></a>
-<a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><span class="badge">tag2</span></a>
-<a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="badge">tag3</span></a>
-{%endcomment%}
-
 
 <div class="panel-group" id="accordion">
   <div class="noborder panel panel-default">

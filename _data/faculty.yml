@@ -53,10 +53,10 @@
   lab_school: Centerpoint  203-07
   last_name: Ben Amor
   name: Heni Ben Amor
-  other_keywords: Human-Robot Interaction
+  other_keywords: ''
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, Machine-Learning-and-AI, Vision, Neural]
+  tags: [Controls, Machine-Learning-and-AI, Vision, Neural, Human-Robot]
   title: Assistant Professor
 - description: Develop control frameworks for designing distributed robot behaviors
     that provably produce target collective behaviors; model mechanisms of self-organization
@@ -123,9 +123,9 @@
   school-name: CIDSE
   tags: [Controls, Design]
   title: Senior Lecturer
-- description: "Studies on human/robot interaction and the implications for human/human\
-    \ communication in a world where robots are work colleagues, bosses, teachers,\
-    \ friends and even \xE2\u20AC\u02DClovers\xE2\u20AC\u2122!"
+- description: Studies on human/robot interaction and the implications for human/human
+    communication in a world where robots are work colleagues, bosses, teachers, friends
+    and even lovers!
   email: pauline.davies@asu.edu
   first_name: Pauline
   image: /assets/images/asu_logo.svg
@@ -138,10 +138,10 @@
   lab_school: Tempe
   last_name: Davies
   name: Pauline Davies
-  other_keywords: Human interaction, cultural, verbal communication, non-verbal communication
+  other_keywords: cultural, verbal communication, non-verbal communication
   school: Hugh-Downs-School
   school-name: Hugh Downs School of Human Communication
-  tags: [Design]
+  tags: [Design, Human-Robot]
   title: Professor of Practice
 - description: Application of formal methods, logic, and hybrid system theory to autonomous
     vehicles in order to develop dependable and provably correct systems.
@@ -334,10 +334,10 @@
   lab_school: Brickyard Building 5th floor
   last_name: Yang
   name: Yezhou Yang
-  other_keywords: 'Manipulation; Human Robot Interaction; '
+  other_keywords: Manipulation
   school: CIDSE
   school-name: CIDSE
-  tags: [Machine-Learning-and-AI, Vision, Neural]
+  tags: [Machine-Learning-and-AI, Vision, Neural, Human-Robot]
   title: Assistant Professor
 - description: Research on dynamic systems and control, mobile and aerial robotics,
     wearable sensors and connected health, networked and multi-agent systems.
@@ -372,8 +372,10 @@
   lab_school: TBD
   last_name: Zhang
   name: Yu(Tony) Zhang
-  other_keywords: Human-machine systems
+  other_keywords: '
+
+    '
   school: CIDSE
   school-name: CIDSE
-  tags: [Machine-Learning-and-AI]
+  tags: [Machine-Learning-and-AI, Human-Robot]
   title: Assistant Professor
