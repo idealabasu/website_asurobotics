@@ -77,7 +77,7 @@ This equipment is available to students for class, project, and personal use.
   {% for item in page.carousel-images %}
   {% capture ii %}{{ forloop.index0 }}{% endcapture %}
     <div class="item{% if ii == '0' %} active{% endif %}">
-      <img class="img-responsive" src="{{site.base_path}}/assets/images/startup-lab/{{item}}" alt="...">
+      <img class="img-responsive" src="{{site.base_path}}/assets/carousels/startup-lab/{{item}}" alt="...">
 {%comment%}
       <div class="carousel-caption">
         This is a caption
