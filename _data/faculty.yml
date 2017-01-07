@@ -56,7 +56,7 @@
   other_keywords: ''
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, Machine-Learning-and-AI, Vision, Neural, Human-Robot]
+  tags: [Controls, AI/Machine-learning, Vision, Neural, Human-Robot]
   title: Assistant Professor
 - description: Develop control frameworks for designing distributed robot behaviors
     that provably produce target collective behaviors; model mechanisms of self-organization
@@ -160,7 +160,7 @@
   other_keywords: ''
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, Machine-Learning-and-AI, Dynamics]
+  tags: [Controls, AI/Machine-learning, Dynamics]
   title: Associate Professor
 - description: Research on human motor control, physical human-robot interaction,
     and robot-aided neurorehabilitation.
@@ -200,7 +200,7 @@
     dynamics, biosensors
   school: SBHSE
   school-name: SBHSE
-  tags: [Machine-Learning-and-AI, Dynamics]
+  tags: [AI/Machine-learning, Dynamics]
   title: Professor of Biomedical Engineering
 - description: Study fundamental physics behind interactions of biological systems
     with their surrounding solid, granular, and fluidic environments to develop bio-inspired
@@ -243,7 +243,7 @@
     systems, sustainabiity, built environment
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, Machine-Learning-and-AI, Neural, Bio-robotics, Dynamics]
+  tags: [Controls, AI/Machine-learning, Neural, Bio-robotics, Dynamics]
   title: Assistant Professor
 - description: Realization of tasks that are essential to the design, implementation
     and integration of novel robotic systems and mechatronic devices that have significant
@@ -281,7 +281,7 @@
   other_keywords: ''
   school: SEMTE
   school-name: SEMTE
-  tags: [Design, Machine-Learning-and-AI]
+  tags: [Design, AI/Machine-learning]
   title: Assistant Professor
 - description: 'Timing in robotic systems: Time-sensitive programming, timing specifications
     of robotic systems, time predictable architectures, compilers, and operating systems
@@ -337,7 +337,7 @@
   other_keywords: Manipulation
   school: CIDSE
   school-name: CIDSE
-  tags: [Machine-Learning-and-AI, Vision, Neural, Human-Robot]
+  tags: [AI/Machine-learning, Vision, Neural, Human-Robot]
   title: Assistant Professor
 - description: Research on dynamic systems and control, mobile and aerial robotics,
     wearable sensors and connected health, networked and multi-agent systems.
@@ -356,7 +356,7 @@
   other_keywords: Sensors
   school: POLY
   school-name: POLY
-  tags: [Controls, Machine-Learning-and-AI, Dynamics, Mechatronics]
+  tags: [Controls, AI/Machine-learning, Dynamics, Mechatronics]
   title: Assistant Professor
 - description: 'Research on the intersection of AI and Robotics in order to increase
     the capacity of both humans and machines by bringing them seamlessly together. '
@@ -377,5 +377,5 @@
     '
   school: CIDSE
   school-name: CIDSE
-  tags: [Machine-Learning-and-AI, Human-Robot]
+  tags: [AI/Machine-learning, Human-Robot]
   title: Assistant Professor
