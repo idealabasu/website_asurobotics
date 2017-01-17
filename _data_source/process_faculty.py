@@ -38,7 +38,7 @@ for entry in entries:
     entry['tags'] = [item.strip(' ').replace(' ','-') for item in entry['tags'].split(',')]
     entry['school'] = entry['school'].strip(' ').replace(' ','-')
     entry['image'] = '/assets/images/asu_logo.svg'
-    entry['lab_image'] = '/assets/images/aukes-lab.jpg'
+    entry['lab_image'] = '/assets/images/asu_logo.svg'
     entry['tags'] = entry['tags']
     
 with open('../_data/faculty.yml', 'w') as f:

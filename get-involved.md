@@ -3,7 +3,7 @@ title: Get Involved
 description: Learn how to get involved in robotics initiatives
 permalink: /get-involved/
 image:
-  feature: robot-hand-crop.jpg
+  feature: robot-hand.jpg
 ---
 
 ## Join ASU
