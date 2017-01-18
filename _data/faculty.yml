@@ -7,7 +7,7 @@
   lab_description: The mission of the HORC Lab is to improve the quality of life by
     developing and controlling robotic devices that physically and cognitively interact
     and collaborate with humans.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://horc.engineering.asu.edu
   lab_name: Human-Oriented Robotics and Control (HORC) Lab
   lab_school: ECE116, PEBE 174
@@ -27,7 +27,7 @@
   lab_description: The lab's focus is to develop new tools for designing robots by
     pairing emerging fabrication techniques and new materials with analytical and
     simulation-based methods for understanding the behavior of these complex systems.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://idealab.asu.edu
   lab_name: IDEAlab
   lab_school: Polytechnic Campus
@@ -47,7 +47,7 @@
   lab_description: The lab explores the intersection of robotics, artificial intelligence,
     and human-robot interaction for the development of machine learning methods that
     allow humanoid robots to behave in an intelligent and autonomous manner.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://interactive-robotics.engineering.asu.edu/
   lab_name: Interactive Robotics Laboratory
   lab_school: Centerpoint  203-07
@@ -56,7 +56,7 @@
   other_keywords: ''
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, AI/Machine-learning, Vision, Neural, Human-Robot]
+  tags: [Controls, AI-and-learning, Vision, Neural, Human-Robot]
   title: Assistant Professor
 - description: Develop control frameworks for designing distributed robot behaviors
     that provably produce target collective behaviors; model mechanisms of self-organization
@@ -67,7 +67,7 @@
   lab_description: The lab develops control frameworks for designing distributed robot
     behaviors that provably produce target collective behaviors, models nature's mechanisms
     of self-organization and translates them into strategies for robot swarms.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://faculty.engineering.asu.edu/acs/
   lab_name: Autonomous Collective Systems Laboratory
   lab_school: Tempe campus
@@ -94,7 +94,7 @@
   lab_description: The lab focuses on using a combination of human psychophysical
     experiments, neurophysiological experiments, and computational modeling to pursue
     its research interests.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://sbhse.engineering.asu.edu/faculty-and-staff/faculty/christopher-buneo/
   lab_name: Visuomotor Learning Lab
   lab_school: Tempe
@@ -112,7 +112,7 @@
   first_name: Yinong
   image: /assets/images/asu_logo.svg
   lab_description: Develop educational materials for teaching robotics and programming.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://neptune.fulton.ad.asu.edu/VIPLE/
   lab_name: IoT and Robotics Education Lab
   lab_school: Brickyard 452
@@ -132,7 +132,7 @@
   lab_description: The lab focuses on how human-machine interaction can affect religiosity,
     how robots will both disrupt and enhance romantic relationships, the importance
     of cultural sensitivity addressing the disparities that robotics will bring.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://N/A
   lab_name: Human Communication Robotics Group
   lab_school: Tempe
@@ -151,7 +151,7 @@
   lab_description: The CPSLab is working on problems related to the foundations of
     Cyber-Physical Systems (CPS). Particular focus is given to developing theories
     and tools for model based development of CPS.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://www.public.asu.edu/~gfaineko/
   lab_name: Cyber-Physical Systems Lab
   lab_school: Centerpoint, Tempe
@@ -160,7 +160,7 @@
   other_keywords: ''
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, AI/Machine-learning, Dynamics]
+  tags: [Controls, AI-and-learning, Dynamics]
   title: Associate Professor
 - description: Research on human motor control, physical human-robot interaction,
     and robot-aided neurorehabilitation.
@@ -170,7 +170,7 @@
   lab_description: Aiming to identify mechanisms underlying human neuromuscular control,
     innovate physical human-robot interaction by incorporating key principles in human
     motor control into robotics, and advance robot-aided neurorehabilitation.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://faculty.engineering.asu.edu/hlee
   lab_name: Neuromuscular Control and Human Robotics Laboratory (NeuroRobotics Lab)
   lab_school: Tempe
@@ -190,7 +190,7 @@
   lab_description: An interdisciplinary research laboratory capable of addressing
     the needs of the older adults by focusing on fall prevention utilizing mobile,
     wireless, ubiquitous and gait sensing technologies.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://faculty.engineering.asu.edu/lockhart/
   lab_name: Locomotion Research Laboratory
   lab_school: PEBE 153
@@ -200,7 +200,7 @@
     dynamics, biosensors
   school: SBHSE
   school-name: SBHSE
-  tags: [AI/Machine-learning, Dynamics]
+  tags: [AI-and-learning, Dynamics]
   title: Professor of Biomedical Engineering
 - description: Study fundamental physics behind interactions of biological systems
     with their surrounding solid, granular, and fluidic environments to develop bio-inspired
@@ -210,7 +210,7 @@
   image: /assets/images/asu_logo.svg
   lab_description: 'The mission of the Bio-Inspired Robotics, Technology, and Healthcare
     lab (BIRTH lab) is to give "birth" to new robotic technologies inspired by nature. '
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://birth.asu.edu
   lab_name: BIRTH Lab
   lab_school: Tempe
@@ -230,7 +230,7 @@
   lab_description: Interdisciplinary laboratory focused on the analysis of natural
     systems that solve complex problems and the design of artificial systems (robotics
     and automation systems) that are similarly flexible, adaptive, and scalable.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://pavliclab.org/
   lab_name: Science and Engineering of Autonomous Decision-making Systems (SEADS)
     Lab
@@ -243,7 +243,7 @@
     systems, sustainabiity, built environment
   school: CIDSE
   school-name: CIDSE
-  tags: [Controls, AI/Machine-learning, Neural, Bio-robotics, Dynamics]
+  tags: [Controls, AI-and-learning, Neural, Bio-robotics, Dynamics]
   title: Assistant Professor
 - description: Realization of tasks that are essential to the design, implementation
     and integration of novel robotic systems and mechatronic devices that have significant
@@ -254,7 +254,7 @@
   lab_description: Multidisciplinary lab focusing on research and development of biologically
     inspired mechatronic technologies, discovery of principles and designs that will
     guide the development of novel wearable assistive devices and soft robots.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://biomech.asu.edu
   lab_name: Bio-Inspired Mechatronics Lab
   lab_school: Polytechnic Campus
@@ -272,7 +272,7 @@
   image: /assets/images/asu_logo.svg
   lab_description: 'The lab focuses on computational and crowdsourcing tools that
     will renovate engineering and industrial design activities. '
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://designinformaticslab.github.io/
   lab_name: Design Informatics Lab
   lab_school: GWC435
@@ -281,7 +281,7 @@
   other_keywords: ''
   school: SEMTE
   school-name: SEMTE
-  tags: [Design, AI/Machine-learning]
+  tags: [Design, AI-and-learning]
   title: Assistant Professor
 - description: 'Timing in robotic systems: Time-sensitive programming, timing specifications
     of robotic systems, time predictable architectures, compilers, and operating systems
@@ -290,7 +290,7 @@
   first_name: Aviral
   image: /assets/images/asu_logo.svg
   lab_description: ''
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://aviral.lab.asu.edu/
   lab_name: Compiler-Microarchitecture Lab
   lab_school: ''
@@ -308,7 +308,7 @@
   first_name: Thomas
   image: /assets/images/asu_logo.svg
   lab_description: Design and build wearable robotic systems.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://robotics.fulton.asu.edu
   lab_name: Human Machine Integration Laboratory
   lab_school: The Polytechnic Campus
@@ -328,7 +328,7 @@
   lab_description: 'The Active Perception Group (APG) approaches the following quests
     from the angle of visual perception: Why do robots perceive, how do robots perceive,
     what do robots perceive and when do robots perceive, to understand us?'
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://yezhouyang.engineering.asu.edu/research-group/
   lab_name: Active Perception Group
   lab_school: Brickyard Building 5th floor
@@ -337,7 +337,7 @@
   other_keywords: Manipulation
   school: CIDSE
   school-name: CIDSE
-  tags: [AI/Machine-learning, Vision, Neural, Human-Robot]
+  tags: [AI-and-learning, Vision, Neural, Human-Robot]
   title: Assistant Professor
 - description: Research on dynamic systems and control, mobile and aerial robotics,
     wearable sensors and connected health, networked and multi-agent systems.
@@ -347,7 +347,7 @@
   lab_description: Lab focusing on the development of wearable sensors for mobile
     healthcare; Modeling and control of wearable robots, unmanned vehicles, and networked
     multi-agent systems.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://faculty.engineering.asu.edu/zhang
   lab_name: Robotics and Intelligent Systems Laboratory
   lab_school: 189 Tech Center, Poly Campus
@@ -356,7 +356,7 @@
   other_keywords: Sensors
   school: POLY
   school-name: POLY
-  tags: [Controls, AI/Machine-learning, Dynamics, Mechatronics]
+  tags: [Controls, AI-and-learning, Dynamics, Mechatronics]
   title: Assistant Professor
 - description: 'Research on the intersection of AI and Robotics in order to increase
     the capacity of both humans and machines by bringing them seamlessly together. '
@@ -366,7 +366,7 @@
   lab_description: The research agenda of the CRS laboratory includes the development
     of novel modeling methods, robust decision making algorithms, as well as system
     integration and evaluation for cooperative and intelligent agents.
-  lab_image: /assets/images/aukes-lab.jpg
+  lab_image: /assets/images/asu_logo.svg
   lab_link: http://www.public.asu.edu/~yzhan442/CRS
   lab_name: Cooperative Robotic Systems (CRS) laboratory
   lab_school: TBD
@@ -377,5 +377,5 @@
     '
   school: CIDSE
   school-name: CIDSE
-  tags: [AI/Machine-learning, Human-Robot]
+  tags: [AI-and-learning, Human-Robot]
   title: Assistant Professor
