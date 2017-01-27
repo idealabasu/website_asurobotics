@@ -289,10 +289,12 @@
   email: Aviral.Shrivastava@asu.edu
   first_name: Aviral
   image: /assets/images/asu_logo.svg
-  lab_description: ''
+  lab_description: Precision timing and synchronized actions are needed for Cyber-Physical
+    Systems. CML investigates methods by which computing systems can become more time-predictable,
+    and can share a common notion of time.
   lab_image: /assets/images/asu_logo.svg
   lab_link: http://aviral.lab.asu.edu/
-  lab_name: Compiler-Microarchitecture Lab
+  lab_name: Compiler-Microarchitecture Lab(CML)
   lab_school: ''
   last_name: Shrivastava
   name: Aviral Shrivastava
