@@ -94,7 +94,7 @@ carousel-images:
 &nbsp;
 <div class="row">
   <div class="col-md-4">
-    <img alt="" class="img-responsive" src="{{site.base_path}}/assets/images/" />
+    <img alt="" class="img-responsive" src="{{site.base_path}}/assets/images/gait-lab.jpg" />
   </div>
   <div class="col-md-8">
     <h3>Gait-Motion Capture Lab</h3>
