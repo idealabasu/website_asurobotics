@@ -162,7 +162,7 @@ Get Involved
 
 <h2><a href="{{site.base_path}}/news">News</a></h2>
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{site.base_path}}{{ post.url }}">{{ post.title }}</a><br>
       <em>{{ post.date | date: '%B %d, %Y' }}</em>
@@ -173,7 +173,9 @@ Get Involved
       {% endif %}
     </li>
   {% endfor %}
+  <li><a href="{{site.base_path}}/news">more...</a></li>
 </ul>
+
 
 <hr/>
 <!--###############################################################-->
