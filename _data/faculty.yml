@@ -381,3 +381,40 @@
   school-name: CIDSE
   tags: [AI-and-learning, Human-Robot]
   title: Assistant Professor
+- description: 'Research on human-automation interaction in cognitive tasks, complex
+    systems, safety applications, resilience, cooperation, and trust.  '
+  email: erin.chiou@asu.edu
+  first_name: Erin
+  image: /assets/images/asu_logo.svg
+  lab_description: 'The Automation Design Advancing People and Technology (ADAPT)
+    Laboratory conducts research to understand how automation can improve productivity,
+    quality, and safety in our human world. '
+  lab_image: /assets/images/asu_logo.svg
+  lab_link: http://https://adapt.engineering.asu.edu/
+  lab_name: ADAPT Lab
+  lab_school: Polytechnic Campus
+  last_name: Chiou
+  name: Erin Chiou
+  other_keywords: Resilience, System Integration, Field Research
+  school: POLY
+  school-name: POLY
+  tags: [Human-Robot, Design, Dynamics]
+  title: Assistant Professor
+- description: 'Planning, decision-making and collaboration in human-aware AI systems,
+    and human-robot teams. '
+  email: rao@asu.edu
+  first_name: Subbarao
+  image: /assets/images/asu_logo.svg
+  lab_description: 'Planning, decision-making and collaboration in human-aware AI
+    systems, and human-robot teams. '
+  lab_image: /assets/images/asu_logo.svg
+  lab_link: http://rakaposhi.eas.asu.edu/yochan.html
+  lab_name: AI Lab (Yochan)
+  lab_school: Brickyard 557
+  last_name: Kambhampati
+  name: Subbarao Kambhampati
+  other_keywords: ''
+  school: CIDSE
+  school-name: CIDSE
+  tags: ['']
+  title: Professor
