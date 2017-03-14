@@ -32,7 +32,7 @@ filtered_keys = set(short_keys)-set(filtered_keys)
 for entry in entries:
     for key in filtered_keys:
         entry.pop(key)
-    if not entry['lab_link'].startswith('http://'):
+    if not (entry['lab_link'].startswith('http://') or entry['lab_link'].startswith('https://')):
         entry['lab_link'] = 'http://'+entry['lab_link']
     entry['image']='/assets/images/asu_logo.svg'
     entry['tags'] = [item.strip(' ').replace(' ','-') for item in entry['tags'].split(',')]
