@@ -4,8 +4,8 @@ rvm:
 sudo: required
 env:
   global:
-  - SOURCE_BRANCH: "stable"
-  - TARGET_BRANCH: "master"
+  - SOURCE_BRANCH: "main"
+  - TARGET_BRANCH: "gh-pages"
 
 install: 
   - gem install jekyll
