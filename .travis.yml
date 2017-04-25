@@ -1,4 +1,7 @@
 language: ruby # don't install any environment
+branches:
+  only:
+    - main
 rvm:
 - 2.1
 sudo: required
