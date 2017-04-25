@@ -11,4 +11,7 @@ install:
   - gem install jekyll
   - gem list
   
+before_script:
+  - chmod +rx compile.sh
 
+script: bash ./compile.sh
