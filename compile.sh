@@ -9,5 +9,3 @@ pwd
 echo "home is $HOME"
 ls -la
 ls -la _site
-ls -la out
-mv _site/* out/
