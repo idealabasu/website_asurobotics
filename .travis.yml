@@ -1,0 +1,14 @@
+language: ruby # don't install any environment
+rvm:
+- 2.1
+sudo: required
+env:
+  global:
+  - SOURCE_BRANCH: "stable"
+  - TARGET_BRANCH: "master"
+
+install: 
+  - gem install jekyll
+  - gem list
+  
+
