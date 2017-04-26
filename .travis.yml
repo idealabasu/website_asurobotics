@@ -5,7 +5,7 @@ branches:
     - main
 rvm:
 - 2.2
-sudo: required
+#sudo: required
 env:
   global:
   - SOURCE_BRANCH: "main"
@@ -14,12 +14,19 @@ env:
 
 #before_install:
 
+addons:
+  apt:
+    packages:
+      - python
+      - python-pip
+#      - python-pil
+
 install:
   - gem install jekyll
   - gem list
-  - sudo apt-get update -qq
-  - sudo apt-get install python python-pip python-pil -y 
-#  - pip install PIL
+#  - sudo apt-get update -qq
+#  - sudo apt-get install python python-pip python-pil -y
+  - pip install PIL
 
 before_script:
   - chmod +rx compile.sh
