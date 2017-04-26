@@ -1,5 +1,6 @@
 language: ruby # don't install any environment
 #sudo: required
+dist: trusty
 branches:
   only:
     - main
