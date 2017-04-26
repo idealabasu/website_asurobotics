@@ -1,5 +1,5 @@
 ---
-description: Robotics was on display at the Polytechnic Campus' "Night of the Open Door"
+description: Robotics was on display at the Polytechnic Campus' "Night of the Open Door".
 ---
 
 <div class="embed-responsive embed-responsive-4by3">
