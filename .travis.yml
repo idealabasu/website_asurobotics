@@ -22,7 +22,9 @@ install:
 
 before_script:
   - chmod +rx compile.sh
-  - python _data_source/process.py
+  - cd _data_source
+  - python process.py
+  - cd ../
 
 script:
   - bash ./compile.sh
