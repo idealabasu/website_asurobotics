@@ -15,10 +15,14 @@ env:
 before_install:
   - openssl aes-256-cbc -K $encrypted_7aa9289c3b13_key -iv $encrypted_7aa9289c3b13_iv -in asu.enc -out asu -d
   - wget https://sslvpn.asu.edu/CACHE/stc/3/binaries/anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
+  - chmod +x anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
+
 install:
-  - bash ./anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
+  - sudo bash ./anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
   - gem install jekyll
   - gem list
+  - sudo apt-get update -qq
+  - sudo apt-get install python -y
 
 before_script:
   - chmod +rx compile.sh
