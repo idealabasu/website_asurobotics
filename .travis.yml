@@ -32,7 +32,7 @@ install:
 #  - sudo apt-get install python python-pip python-pil -y
 
 before_script:
-  - pip3 install pyyaml pil
+  - pip3 install pyyaml pillow
   - python3 -c 'import sys; print(sys.version_info[:])'
   - chmod +rx compile.sh
   - cd _data_source
