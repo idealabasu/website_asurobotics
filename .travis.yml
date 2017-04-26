@@ -18,7 +18,7 @@ before_install:
   - chmod +x anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
 
 install:
-  - sudo bash ./anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
+  - sudo ./anyconnect-linux64-4.4.01054-core-vpn-webdeploy-k9.sh
   - gem install jekyll
   - gem list
   - sudo apt-get update -qq
