@@ -29,9 +29,9 @@ install:
   - gem list
 #  - sudo apt-get update -qq
 #  - sudo apt-get install python python-pip python-pil -y
-#  - pip3 install pyyaml
 
 before_script:
+  - pip3 install pyyaml
   - python3 -c 'import sys; print(sys.version_info[:])'
   - chmod +rx compile.sh
   - cd _data_source
