@@ -1,4 +1,4 @@
-language: ruby # don't install any environment
+language: python,ruby # don't install any environment
 #sudo: required
 dist: trusty
 branches:
@@ -6,8 +6,8 @@ branches:
     - main
 rvm:
 - 2.2
-#python:
-#  - "3.5"
+python:
+  - "3.5"
 #sudo: required
 env:
   global:
@@ -32,7 +32,7 @@ install:
 #  - sudo apt-get install python python-pip python-pil -y
 
 before_script:
-  - pip install pyyaml
+  - pip3 install pyyaml
   - python3 -c 'import sys; print(sys.version_info[:])'
   - chmod +rx compile.sh
   - cd _data_source
