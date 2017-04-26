@@ -18,8 +18,8 @@ addons:
   apt:
     packages:
       - python3
-      - python3-pip
-      - python3-pil
+#      - python3-pip
+#      - python3-pil
 
 install:
   - gem install jekyll
@@ -27,6 +27,7 @@ install:
 #  - sudo apt-get update -qq
 #  - sudo apt-get install python python-pip python-pil -y
   #- pip install PIL
+  -  python -c 'import sys; print(sys.version_info[:])'
 
 before_script:
   - chmod +rx compile.sh
