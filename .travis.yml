@@ -17,21 +17,21 @@ env:
 addons:
   apt:
     packages:
-      - python
-      - python-pip
-#      - python-pil
+      - python3
+      - python3-pip
+      - python3-pil
 
 install:
   - gem install jekyll
   - gem list
 #  - sudo apt-get update -qq
 #  - sudo apt-get install python python-pip python-pil -y
-  - pip install PIL
+  #- pip install PIL
 
 before_script:
   - chmod +rx compile.sh
   - cd _data_source
-  - python process.py
+  - python3 process.py
   - cd ../
 
 script:
