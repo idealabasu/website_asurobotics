@@ -18,7 +18,8 @@ install:
   - gem install jekyll
   - gem list
   - sudo apt-get update -qq
-  - sudo apt-get install python -y
+  - sudo apt-get install -y python python-pip python-pil
+#  - pip install PIL
 
 before_script:
   - chmod +rx compile.sh
