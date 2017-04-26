@@ -26,9 +26,11 @@ install:
 
 before_script:
   - chmod +rx compile.sh
+
+script:
+  - python data_source/process.py
+  - bash ./compile.sh
+
+deploy:
   - cat ~/asu | /opt/cisco/anyconnect/bin/vpn -s connect sslvpn.asu.edu
-
-script: bash ./compile.sh
-
-after_script:
   - /opt/cisco/anyconnect/bin/vpn disconnect
