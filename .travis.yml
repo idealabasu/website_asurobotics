@@ -11,7 +11,7 @@ python:
 #sudo: required
 env:
   global:
-  - ENCRYPTION_LABEL: "42c822b2fecd"
+  - ENCRYPTION_LABEL: "ef16a336ccfc"
   - COMMIT_AUTHOR_EMAIL: "idealab@asu.edu"
   - SOURCE_BRANCH: "main"
   - TARGET_BRANCH: "gh-pages"
