@@ -10,18 +10,13 @@
     <div class="row">
   {% endif %}
       <div class="col-sm-4">
-        {% for item2 in site.data.lab_images %}
-          {% if item2.name == item.name %}
-            {% capture image %}{{item2.image}}{% endcapture %}
-          {% endif %}
-        {% endfor %}
         <div class="thumbnail">
-          <p><a href="{{item.lab_link}}"><img class="img-responsive" src="{{site.base_path}}/assets/labs/{{image}}" alt="lab image"></a></p>
+          <p><a href="{{item.lab_link}}"><img class="img-responsive" src="{{site.base_path}}/assets/labs/{{item.lab-image}}" alt="lab image"></a></p>
           <div class="caption">
             <h3><a href="{{item.lab_link}}">{{item.lab_name}}</a></h3>
             <p>{{item.school}}</p>
             <p>{{item.lab_description}}</p>
-            <p>{% for tag2 in item.tags %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
+            <p>{% assign tt = item.tags | split:',' | sort | uniq %}{% for tag2 in tt %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
           </div>
         </div>
       </div>
