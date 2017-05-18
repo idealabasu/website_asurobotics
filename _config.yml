@@ -44,6 +44,8 @@ menu:
     link: get-involved
   - name: News
     link: news
+  - name: Southwest Robotics Symposium
+    link: southwest-robotics-symposium
 
 faculty_tags:
   - name: poly
