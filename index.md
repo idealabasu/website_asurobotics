@@ -28,6 +28,8 @@ carousel-images:
     caption: ""
   - file: Mind Drones.00_03_24_28.Still003.jpg
     caption: ""
+  - file: POLY-Panos-Polygerinos-Lab3523a.jpg
+    caption: ""
 ---
 <style type="text/css">
   .carousel-caption {bottom:30px;}

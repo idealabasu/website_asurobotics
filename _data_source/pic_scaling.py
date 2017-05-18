@@ -63,3 +63,5 @@ def crop(subdir,goal_ratio,basewidth,crop):
 
 crop('headshots',5/7,400,True)
 crop('labs',7/5,400,False)
+crop('carousels/homepage',7/5,1000,True)
+crop('carousels/startup-lab',7/5,1000,True)
