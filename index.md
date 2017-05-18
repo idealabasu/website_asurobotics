@@ -40,7 +40,12 @@ carousel-images:
 {%endcomment%}
 
 
+<div class="panel panel-default">
+<div class="panel-heading"><h3 class="panel-title">Southwest Research Symposium</h3></div>
+  <div class="panel-body"><a href="{{site.base_path}}/southwest-robotics-symposium">Link</a></div>
+</div>
 
+<hr/>
 <!--###############################################################-->
 
 
