@@ -2,7 +2,8 @@
 title: Southwest Robotics Symposium
 description: January 25 & 26, 2018
 permalink: /southwest-robotics-symposium/
-
+image:
+  feature: "170505.jpg"
 ---
 
 ## Introduction
