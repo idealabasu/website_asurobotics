@@ -44,8 +44,10 @@ menu:
     link: get-involved
   - name: News
     link: news
+    external: False
   - name: Southwest Robotics Symposium
-    link: southwest-robotics-symposium
+    link: http://swrobotics.engineering.asu.edu/
+    external: True
 
 faculty_tags:
   - name: poly
