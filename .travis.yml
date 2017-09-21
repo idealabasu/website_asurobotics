@@ -28,7 +28,8 @@ install:
   - gem list
 
 before_script:
-  - pip3 install pyyaml pillow
+  - pyenv shell 3.5
+  - pip install pyyaml pillow
   - python3 -c 'import sys; print(sys.version_info[:])'
   - chmod +rx _compile.sh
   - chmod +rx _deploy.sh
