@@ -43,7 +43,7 @@ carousel-images:
 
 
 <div class="panel panel-default">
-<div class="panel-heading"><h3 class="panel-title"> <a href="{{site.base_path}}/southwest-robotics-symposium">Southwest Robotics Symposium</a></h3></div>
+<div class="panel-heading"><h3 class="panel-title"> Southwest Robotics Symposium</h3></div>
   <div class="panel-body">
   Click <a href="https://swrobotics.engineering.asu.edu/" target="_new">here</a> to learn more about the Southwest Robotics Seminar, January 25 & 26, 2018
   </div>
