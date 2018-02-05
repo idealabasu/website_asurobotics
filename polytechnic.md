@@ -2,6 +2,7 @@
 layout: page
 title: National Robotics Week
 description: at the Polytechnic School
+permalink: /polytechnic/
 ---
 ## The Polytechnic School presents...
 <img class="img-responsive center-block" src="{{site.base_path}}/assets/images/nrw.png">
