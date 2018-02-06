@@ -45,9 +45,13 @@ menu:
   - name: News
     link: news
     external: False
-  - name: Southwest Robotics Symposium
-    link: http://swrobotics.engineering.asu.edu/
-    external: True
+  - name: Events
+    links:
+    - name: Southwest Robotics Symposium
+      link: http://swrobotics.engineering.asu.edu/
+      external: True
+    - name: National Robotics Week
+      link: polytechnic
 
 faculty_tags:
   - name: poly

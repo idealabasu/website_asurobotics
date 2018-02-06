@@ -42,6 +42,7 @@ carousel-images:
 {%endcomment%}
 
 
+{%comment%}
 <div class="panel panel-default">
 <div class="panel-heading"><h3 class="panel-title"> Southwest Robotics Symposium</h3></div>
   <div class="panel-body">
@@ -49,7 +50,11 @@ carousel-images:
   </div>
 </div>
 
-<hr/>
+----------------
+
+{%endcomment%}
+
+
 <!--###############################################################-->
 
 
