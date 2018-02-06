@@ -14,9 +14,9 @@ We will be hosting robotics tours for several local high school groups at ASU's 
 <div class="row">
 <div class="col-md-4">
 <h3>Polytechnic Campus</h3>
-<p><em>Friday, April 7, 2017 </em> </p>
+<p><em>Friday, April 13, 2018 </em> </p>
 <p><strong>Technology Center</strong><br>
-10:00am - 2:00pm<br>
+12:00am - 4:00pm<br>
 6075 S. Innovation Way West<br>
 Mesa, AZ 85212</p>
 
