@@ -5,7 +5,7 @@ description: at the Polytechnic School
 permalink: /polytechnic/
 ---
 ## The Polytechnic School presents...
-<img class="img-responsive center-block" src="{{site.base_path}}/assets/images/nrw.png">
+<img class="img-responsive center-block" src="{{site.base_path}}/assets/images/nrw-logo-2018-rgb.jpg">
 
 
 ## Description
@@ -82,7 +82,7 @@ This workshop has the support of National Robotics Week
   </div>
   <div class="col-md-5">
     <a href="http://www.nationalroboticsweek.org/Events?s=AZ">
-      <img class="img-responsive" src="{{site.base_path}}/assets/images/nrw.png">
+      <img class="img-responsive" src="{{site.base_path}}/assets/images/nrw-logo-2018-rgb.jpg">
     </a>
   </div>
 </div>
