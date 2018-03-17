@@ -17,14 +17,12 @@ We will be hosting robotics tours for several local high school groups at ASU's 
 <h3>Polytechnic Campus</h3>
 <p><em>Friday, April 13, 2018 </em> </p>
 <p><strong>Technology Center</strong><br>
-12:00am - 4:00pm<br>
+10:00am - 2:00pm<br>
 6075 S. Innovation Way West<br>
 Mesa, AZ 85212</p>
 
-{% comment %}
 <h2> Parking</h2>
-<p>There is a limited amount of metered parking on the other side of Innovation Way.  Parking is free after 5:00 pm on Friday in lot 30, located in front of the Technology Center.</p>
-{% endcomment %}
+<p>There is a limited amount of metered parking on the other side of Innovation Way across from the Technology Center.  Please coordinate with <a href="mailto:brittney.martin@asu.edu">Brittney Martin</a> if you are arriving with a school bus.</p>
 
 </div>
   <div class="col-md-8">
@@ -34,35 +32,42 @@ Mesa, AZ 85212</p>
   </div>
 </div>
 
-## Organizers:
-
-Name                              | Email
---------------------------------: | -------------------------
-**Panagiotis(Panos) Polygerinos** | polygerinos(at)asu.edu
-                 **Daniel Aukes** | danaukes(at)asu.edu
-                **Wenlong Zhang** | Wenlong.Zhang(at)asu.edu
-{%comment%}               **Sangram Redkar** | Sangram.Redkar(at)asu.edu
-                 **Thomas Sugar** | Thomas.Sugar(at)asu.edu
-              **Angela Sodemann** | asodeman(at)asu.edu
-                      **Keng Hsu**| Keng.H.Hsu(at)asu.edu{%endcomment%}
-{%comment%}
 ## Technology Center Events
 
-| Time | Description | Open To
-|-|-|-|
-| 9:30am-11:00am | DiscoverE Day Tours | DiscoverE Day
-| 11:00am-11:30am |  Prospective Undergraduate Student Tour | ASU event
-| 11:30am-12:00pm |  DiscoverE Day Tour | DiscoverE Day
-| 12:00pm-4:00pm |  Robotics Open House | Schools / General Public
-| 4:00pm-6:30pm | Robotics Showcase  | Schools / General Public
+| Time            | Description      | Open To         |
+|:----------------|:-----------------|:----------------|
+| 10:00pm-12:20pm | Fulton Fieldtrip | Scheduled Tours |
+| 12:30pm-2:00pm  | Lab Open House   | General Public  |
+
+## Organizers:
+
+### School Tours
+
+For organizing a school tour, please contact the Fulton Schools' coordinator for student engagement [Brittney Martin](mailto:brittney.martin@asu.edu).
+
+### Robotics Faculty
+We will have our doors open and can show you some of our current work.  Meet professors & see robots in the Motion Capture Lab(Room 184).  You may also visit individual labs:
+
+|                              Name |          Email           | Room |
+|----------------------------------:|:------------------------:|:-----|
+| **Panagiotis(Panos) Polygerinos** |  polygerinos(at)asu.edu  | 182  |
+|                  **Daniel Aukes** |   danaukes(at)asu.edu    | 180  |
+|                 **Wenlong Zhang** | Wenlong.Zhang(at)asu.edu | 179  |
+
+{%comment%}
+|                **Sangram Redkar** | Sangram.Redkar(at)asu.edu |
+|                             **Thomas Sugar** | Thomas.Sugar(at)asu.edu   |
+|                          **Angela Sodemann** | asodeman(at)asu.edu       |
+{%endcomment%}
+
+{%comment%}
 
 ### Robotics Open House
 
-We will have our doors open and can show you some of our current work.  Meet professors & see robots in the Motion Capture Lab(Room 184).  You may also visit individual labs:
 
-* Professor Zhang(Room 189)
-* Professor Polygerinos(Room 193)
-* Professor Sodemann (Room 178)
+* Professor Zhang(Room 179)
+* Professor Aukes(Room 180)
+* Professor Polygerinos(Room 182)
 
 ### Robotics Showcase
 
