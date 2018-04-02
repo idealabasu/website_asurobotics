@@ -1,12 +1,13 @@
-language: python,ruby # don't install any environment
 dist: trusty
+
+language: python,ruby # don't install any environment
 
 branches:
   only:
-    - main
+  - main
 
 rvm:
-- 2.2
+- 2.3
 
 python:
   - "3.6"
