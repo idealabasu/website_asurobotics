@@ -30,7 +30,7 @@ There are several majors which are compatible with robotics topics, offered in o
 * ECEE: Electrical Engineering, Computer Engineering [more info](https://ecee.engineering.asu.edu/academics/doctoral-degrees/)
 
 #### Masters Programs
-
+* Masters Program in Robotics and Autonomous Systems: [more info](<https://ras.engineering.asu.edu/)
 * Polytechnic: Engineering(M.S.) [more info](http://poly.engineering.asu.edu/engineering/ms-engineering/)
 * SEMTE: Mechanical Engineering(M.S.) [more info](https://semte.engineering.asu.edu/mechanical-graduate/)
 * CIDSE: Computer Science(M.S) [more info](https://cidse.engineering.asu.edu/forstudent/prospective-students/graduate-admissions/)
