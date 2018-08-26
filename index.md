@@ -30,8 +30,6 @@ carousel-images:
     caption: ""
   - file: 20180709BasiliskBot_02.JPG
     caption: ""
-  - file: Basilisk.png
-    caption: ""
   - file: Electromagnetic_Coil_System.JPG
     caption: ""
   - file: POLY-Panos-Polygerinos-Lab3523a.jpg
