@@ -163,8 +163,8 @@ Get Involved
     </div>
     <div class="col-md-4 text-center">
     <h1><a href="{{site.base_path}}/courses"><i class="fa fa-university" aria-hidden="true"></i></a></h1>
-      <p>
-      Take a <a href="{{site.base_path}}/courses">course</a> taught by our faculty!
+      <p><a href="https://ras.engineering.asu.edu/">Register</a> for the MS in robotics, or 
+      take a <a href="{{site.base_path}}/courses">course</a> taught by our faculty.
       </p>
     </div>
     <div class="col-md-4 text-center">
@@ -174,7 +174,13 @@ Get Involved
       </p>
     </div>
 </div>
-
+<!--
+<div class="row">
+    <div class="col-md-12 text-center">
+      <h3>Register for the MS in Robotics!</h3>
+    </div>
+</div>
+-->
 <hr/>
 <!--###############################################################-->
 
@@ -210,4 +216,7 @@ Join our Community
 <div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-gold btn-block btn-lg">Request information</button></a></h3>
 </div>
 </div>
+
+### ASU is now accepting applications for the [MS in Robotics](https://ras.engineering.asu.edu/)!
+
 <hr/>
