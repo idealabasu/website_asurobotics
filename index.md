@@ -1,6 +1,8 @@
 ---
 title: ASU Robotics
 description: "Innovating in the field of Robotics"
+image:
+  feature: 'photoshoot_new/hamid-marvi-10.jpg'
 carousel-images:
   - file: DiscoverEDay-2016-Poly-9642a.jpg
     caption: DiscoverE Day 2016

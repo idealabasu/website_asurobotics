@@ -2,6 +2,8 @@
 title: Research Labs
 description: Learn about the work being done across schools
 permalink: /labs/
+image:
+  feature: 'photoshoot_new/aukes-6.jpg'
 ---
 <style type="text/css">
   .noborder {border:0px;

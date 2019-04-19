@@ -3,6 +3,8 @@ layout: page
 title: National Robotics Week
 description: at the Polytechnic School
 permalink: /polytechnic/
+image:
+  feature: 'photoshoot_new/tom-sugar-6.jpg'
 ---
 ## The Polytechnic School presents...
 <img class="img-responsive center-block" src="{{site.base_path}}/assets/images/nrw-logo-2018-rgb.jpg">

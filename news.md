@@ -2,6 +2,8 @@
 title: News
 layout: page
 permalink: /news/
+image:
+  feature: 'photoshoot_new/yezhou-yang-23.jpg'
 ---
 <ul>
   {% for post in site.posts %}

@@ -2,7 +2,7 @@
 title: Faculty
 description: "Pushing the frontiers of Robotics Research"
 image:
-  feature: basketball_robot016.jpg
+  feature: 'photoshoot_new/tom-sugar-4.jpg'
 permalink: /faculty/
 ---
 
