@@ -63,42 +63,22 @@ carousel-images:
 
 <!--###############################################################-->
 
+<h2>
+Join our Community
+</h2>
 
-<div class="row">
-  <div class="col-sm-2"></div>
-  <div class="col-sm-8">
-    <div id="carousel-example-generic" class="carousel slide"  data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-      {% for item in page.carousel-images %}
-      {% capture ii %}{{ forloop.index0 }}{% endcapture %}
-        <li data-target="#carousel-example-generic" data-slide-to="{{ii}}"{% if ii == '0' %} class="active"{% endif %}></li>
-      {%endfor%}
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        {% for item in page.carousel-images %}
-          {% capture ii %}{{ forloop.index0 }}{% endcapture %}
-          <div class="item{% if ii == '0' %} active{% endif %}">
-            <img src="{{site.base_path}}/assets/carousels/homepage/{{item.file}}" alt="...">
-            <div class="carousel-caption">
-              {{item.caption}}
-            </div>
-          </div>
-        {%endfor%}
-      </div>
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
+<div class="row space-bot-xl" style="margin-top:0;">
+<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://webapp4.asu.edu/programs/t5/graduate/false"><button class="btn btn-blue btn-block btn-lg">Explore degrees</button></a></h3>
 </div>
+<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://www.asu.edu/gradapp"><button class="btn btn-gold btn-block btn-lg">Apply now</button></a></h3>
+</div>
+<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-gold btn-block btn-lg">Request information</button></a></h3>
+</div>
+</div>
+
+### ASU is now accepting applications for the [MS in Robotics](https://ras.engineering.asu.edu/)!
+
+<hr/>
 
 <!--###############################################################-->
 
@@ -149,7 +129,45 @@ Our Mission
   </div>
 </div>
 
-<hr/>
+
+<!--###############################################################-->
+
+
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-8">
+    <div id="carousel-example-generic" class="carousel slide"  data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+      {% for item in page.carousel-images %}
+      {% capture ii %}{{ forloop.index0 }}{% endcapture %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{ii}}"{% if ii == '0' %} class="active"{% endif %}></li>
+      {%endfor%}
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        {% for item in page.carousel-images %}
+          {% capture ii %}{{ forloop.index0 }}{% endcapture %}
+          <div class="item{% if ii == '0' %} active{% endif %}">
+            <img src="{{site.base_path}}/assets/carousels/homepage/{{item.file}}" alt="...">
+            <div class="carousel-caption">
+              {{item.caption}}
+            </div>
+          </div>
+        {%endfor%}
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
 <!--###############################################################-->
 
 <h2>
@@ -183,7 +201,9 @@ Get Involved
     </div>
 </div>
 -->
+
 <hr/>
+
 <!--###############################################################-->
 
 <h2><a href="{{site.base_path}}/news">News</a></h2>
@@ -202,23 +222,3 @@ Get Involved
   <li><a href="{{site.base_path}}/news">more...</a></li>
 </ul>
 
-
-<hr/>
-<!--###############################################################-->
-
-<h2>
-Join our Community
-</h2>
-
-<div class="row space-bot-xl" style="margin-top:0;">
-<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://webapp4.asu.edu/programs/t5/graduate/false"><button class="btn btn-blue btn-block btn-lg">Explore degrees</button></a></h3>
-</div>
-<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://www.asu.edu/gradapp"><button class="btn btn-gold btn-block btn-lg">Apply now</button></a></h3>
-</div>
-<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-gold btn-block btn-lg">Request information</button></a></h3>
-</div>
-</div>
-
-### ASU is now accepting applications for the [MS in Robotics](https://ras.engineering.asu.edu/)!
-
-<hr/>

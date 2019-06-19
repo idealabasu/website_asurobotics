@@ -31,8 +31,20 @@ highlighter: pygments
 organization_name: ASU Robotics
 title: ASU Robotics
 
-exclude: [vendor]
+include:
+  - .nojekyll
 
+exclude:
+  - compile.sh
+  - deploy.sh
+  - vendor
+  - yarn.lock
+  - Gemfile
+  - Gemfile.lock
+  - .yarnrc
+  - .gitignore
+  - docker-compose.yml
+  - package.json
 menu:
   - name: Faculty
     link: faculty
