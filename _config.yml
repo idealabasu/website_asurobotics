@@ -26,10 +26,12 @@ base_path: ""
 kramdown:
   input: GFM
   auto_ids: true
-highlighter: rouge
+highlighter: pygments
 
 organization_name: ASU Robotics
 title: ASU Robotics
+
+exclude: [vendor]
 
 menu:
   - name: Faculty

@@ -1,43 +1,11 @@
-dist: trusty
-
-language: python,ruby # don't install any environment
-
-branches:
-  only:
-  - main
-
+language: ruby
 rvm:
-- 2.3
-
-python:
-  - "3.6"
-
+  - 2.1
+sudo: false
+cache: bundler
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html --allow-hash-href --file-ignore "/.*/_site/assets/.*/"
 env:
   global:
-  - ENCRYPTION_LABEL: "ef16a336ccfc"
-  - COMMIT_AUTHOR_EMAIL: "idealab@asu.edu"
-  - SOURCE_BRANCH: "main"
-  - TARGET_BRANCH: "gh-pages"
-
-addons:
-  apt:
-    packages:
-      - python3
-
-install:
-  - gem install jekyll
-  - gem list
-
-before_script:
-  - pyenv shell 3.6
-  - pip install pyyaml pillow
-  - python3 -c 'import sys; print(sys.version_info[:])'
-  - chmod +rx _compile.sh
-  - chmod +rx _deploy.sh
-  - cd _data_source
-  - python3 process.py
-  - cd ../
-
-script:
-  - bash ./_deploy.sh
-
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

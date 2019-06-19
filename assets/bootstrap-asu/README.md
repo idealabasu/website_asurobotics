@@ -51,7 +51,6 @@ You can use one of the following ways to use this repo:
 
 1. [Download the latest release](https://github.com/gios-asu/ASU-Web-Standards-Bootstrap/releases).
 2. Clone the repo: `git clone https://github.com/gios-asu/ASU-Web-Standards-Bootstrap.git`,
-3. or [install this package via Bower](#Using-Bower)
 
 The files that you should include in your website are in `/build`.
 
@@ -59,33 +58,19 @@ Add the following to your head (after your stylesheets for Bootstrap):
 
 ```html
 <!-- ASU Bootstrap Standards -->
-<link href="/bower_components/bootstrap-asu/build/css/bootstrap-asu.min.css" rel="stylesheet">
+<link href="/node_modules/@bower_components/bootstrap-asu/build/css/bootstrap-asu.min.css" rel="stylesheet">
 ```
 
 Add the following to the end of your `<body>` before the closing `</body>` tag, but after your other script tags:
 
 ```html
 <!-- ASU Bootstrap Standards -->
-<script src="/bower_components/bootstrap-asu/build/js/bootstrap-asu.min.js"></script>
+<script src="/node_modules/@bower_components/bootstrap-asu/build/js/bootstrap-asu.min.js"></script>
 ```
 
 Please remember to include all of the [dependencies](#dependencies).  Include all 3rd party stylesheets and scripts BEFORE including the stylesheets and scripts provided in this repo.
 
 For developers or when debugging, consider using the non-minified JavaScript files and adding the `*.map` files to where your `*.css` files are.
-
-
-## Using Bower
-1. [Install bower](https://bower.io/)
-2. Add the *ASU Web Standards Bootstrap theme* to your dependencies in `bower.json`
-```js
-"dependencies": {
-  "bootstrap-asu": "^0.4"
-}
-```
-3. Run `bower install`
-4. Include these assets in the bower_components/bootstrap-asu/:
-  * build/css/bootstrap-asu.min.css
-  * build/js/bootstrap-asu.min.js
 
 
 ## Webfonts
@@ -129,13 +114,13 @@ in your `<head>`. Be sure to adjust the path to match their location on your sit
 
 # Theme Details
 
-This theme uses [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
+This theme uses [Font Awesome](http://fontawesome.github.io/Font-Awesome/).
 
 However, bootstrap natively provides [Glyphicons](http://getbootstrap.com/components/#glyphicons), which means both can be used in tandem. The HUB documentation recommends using Font Awesome icons.
 
 # Developers
 
-For developers, the following details what tools we use and how we use them.
+For developers, the following details what tools we use and how we use them. Provided are instructions on how to set up your local development environment to build and update this theme assets. However, we now recommend using our DOcker container configuration to launch a standardized development environment. This is a much faster and easier to path to a funcitonal development image.
 
 ## Grunt
 
@@ -173,6 +158,38 @@ Our grunt build requires Ruby and a few Ruby Gems for the SCSS compilation. Here
 Grunt will lint the scss and js files, it will check JavaScript coding standards, run tests, and compile and minify all source files.
 
 It is normal practice to run grunt and commit the results as an individual commit called "Gruntfile" or "Grunt task."
+
+### Using Docker for testing and build environment
+
+Docker files are provided to launch a standardized Debian Linux container with NodeJS stable, and Ruby, plus any addons needed to build and test this project.
+
+Build the development image:
+
+```
+docker-compose build
+```
+
+Run `bundle update` to update the Gemfile and Gemfile.lock dependencies
+
+```
+docker-compose run test bundle update
+```
+
+Run all tests and build updated assets:
+```
+docker-compose run test grunt
+```
+
+Run specific Grunt task (such as `tests`):
+```
+docker-compose run test grunt test
+```
+
+To remove all containers and other resources created here:
+```
+docker-compose down
+```
+
 
 ## Travis-CI
 
