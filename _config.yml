@@ -42,7 +42,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .yarnrc
-  - .gitignore
   - docker-compose.yml
   - package.json
 menu:
