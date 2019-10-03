@@ -16,7 +16,7 @@ GEM
     image_size (2.0.0)
     io-like (0.3.0)
     log4r (1.1.10)
-    mini_magick (4.8.0)
+    mini_magick (4.9.5)
     mini_portile2 (2.3.0)
     nokogiri (1.8.3)
       mini_portile2 (~> 2.3.0)
