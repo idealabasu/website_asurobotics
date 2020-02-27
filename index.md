@@ -6,14 +6,10 @@ image:
 carousel-images:
   - file: DiscoverEDay-2016-Poly-9642a.jpg
     caption: DiscoverE Day 2016
-  - file: 20160901PanagiotisArtemiadis03.jpg
-    caption: Professor Artemiadis
   - file: 2016-12-02 16.49.57.jpg
     caption: Foldable Robots at the Polytechnic Innovation Showcase
   - file: 2016-10-14 15.07.51.jpg
     caption: Foldable Robotics workshop at IROS 2016
-  - file: DiscoverEDay-2016-Poly-9628a.jpg
-    caption: DiscoverE Day 2016
   - file: DiscoverEDay-2016-Poly-9637a.jpg
     caption: DiscoverE Day 2016
   - file: DiscoverEDay-2016-Poly-9693a.jpg
@@ -28,13 +24,9 @@ carousel-images:
     caption: "Wall Climbing robot."
   - file: IMG_20160727_122058653.jpg
     caption: ""
-  - file: Mind Drones.00_03_24_28.Still003.jpg
-    caption: ""
   - file: 20180709BasiliskBot_02.JPG
     caption: ""
   - file: Electromagnetic_Coil_System.JPG
-    caption: ""
-  - file: POLY-Panos-Polygerinos-Lab3523a.jpg
     caption: ""
 ---
 <style type="text/css">
