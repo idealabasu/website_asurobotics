@@ -52,6 +52,8 @@ menu:
     link: labs
   - name: Courses
     link: courses
+  - name: Hiring
+    link: hiring
   - name: Resources
     link: resources
   - name: Get Involved
@@ -81,3 +83,7 @@ faculty_tags:
 tags: a,b,c,d
 
 google_analytics: UA-93413417-1
+
+collections:
+  jobs:
+    output: true
