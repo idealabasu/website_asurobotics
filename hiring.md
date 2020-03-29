@@ -5,7 +5,7 @@ permalink: /hiring/
 ---
 <div class="row">
   <div class="col-md-6 col-md-offset-2 col-xs-12 col-xs-offset-0">
-    <h2> Jobs</h2>
+    <h2> Research Positions</h2>
   </div>
 </div>
 
