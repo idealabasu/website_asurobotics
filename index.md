@@ -40,6 +40,11 @@ carousel-images:
 {%endcomment%}
 
 
+
+
+
+
+
 {%comment%}
 <div class="panel panel-default">
 <div class="panel-heading"><h3 class="panel-title"> Southwest Robotics Symposium</h3></div>
@@ -47,34 +52,22 @@ carousel-images:
   Click <a href="https://swrobotics.engineering.asu.edu/" target="_new">here</a> to learn more about the Southwest Robotics Seminar, January 25 & 26, 2018
   </div>
 </div>
-
-----------------
-
 {%endcomment%}
 
 
-<!--###############################################################-->
-
-<h2>
-Join our Community
+<h2 class="text-center">
+Hiring
 </h2>
 
-<div class="row space-bot-xl" style="margin-top:0;">
-<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://webapp4.asu.edu/programs/t5/graduate/false"><button class="btn btn-blue btn-block btn-lg">Explore degrees</button></a></h3>
-</div>
-<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://www.asu.edu/gradapp"><button class="btn btn-gold btn-block btn-lg">Apply now</button></a></h3>
-</div>
-<div class="col-sm-6 col-md-4 space-bot-md"><img alt="" class="img-responsive space-bot-md" /><h3><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-gold btn-block btn-lg">Request information</button></a></h3>
-</div>
-</div>
+Please see our new [hiring page]({{ site.base_path }}/hiring)
 
-### ASU is now accepting applications for the [MS in Robotics](https://ras.engineering.asu.edu/)!
 
-<hr/>
+---------------
+
 
 <!--###############################################################-->
 
-<h2>
+<h2 class="text-center">
 Our Mission
 </h2>
 
@@ -121,9 +114,63 @@ Our Mission
   </div>
 </div>
 
+----------------
 
-<!--###############################################################-->
+<h2 class="text-center">Get Involved</h2>
 
+
+
+<div class="row">
+    <div class="col-md-5 col-md-offset-1 text-center">
+      <div class="well">
+      <h1><a href="{{site.base_path}}/labs"><i class="fa fa-flask" aria-hidden="true"></i></a></h1>
+      <p>
+      Find a <a href="{{site.base_path}}/labs">lab</a> to do research.    
+      </p>
+      <a href="{{site.base_path}}/labs"><button class="btn btn-primary btn-lg">Go...</button></a>
+      </div>
+    </div>
+    <div class="col-md-5 text-center">
+      <div class="well">
+      <h1><a href="{{site.base_path}}/courses"><i class="fa fa-university" aria-hidden="true"></i></a></h1>
+      <p>Take a <a href="{{site.base_path}}/courses">course</a> taught by our faculty.
+      </p>
+      <a href="https://ras.engineering.asu.edu/"><button class="btn btn-primary btn-lg">Go...</button></a>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1 text-center">
+      <div class="well">
+      <h1><a href="{{site.base_path}}/resources"><i class="fa fa-wrench" aria-hidden="true"></i></a></h1>
+      <p>
+      Make a robot in one of our <a href="{{site.base_path}}/resources">maker spaces</a>!
+      </p>
+      <a href="{{site.base_path}}/resources"><button class="btn btn-primary btn-lg">Go...</button></a>
+      </div>
+    </div>
+    <div class="col-md-5 text-center">
+      <div class="well">
+      <h1><a href="{{site.base_path}}/get-involved"><i class="fa fa-book-open" aria-hidden="true"></i></a></h1>
+      <p><a href="https://ras.engineering.asu.edu/">Learn</a> more about the MS in robotics, <a href="https://webapp4.asu.edu/programs/t5/graduate/false">explore</a> our other degrees, <a href="https://www.asu.edu/gradapp">apply now</a>, or <a href="https://requestinfo.asu.edu/prospect_form">request more information</a></p>
+      <a href="{{site.base_path}}/get-involved"><button class="btn btn-primary btn-lg">Go...</button></a>
+    </div>    
+      </div>
+</div>
+
+
+{% comment %}
+### Degrees in Robotics
+
+<div class="row">
+<div class="col-sm-6 col-md-4"><a href="https://webapp4.asu.edu/programs/t5/graduate/false"><button class="btn btn-primary btn-block btn-lg">Explore degrees</button></a></div>
+<div class="col-sm-6 col-md-4"><a href="https://www.asu.edu/gradapp"><button class="btn btn-success btn-block btn-lg">Apply now</button></a></div>
+<div class="col-sm-6 col-md-4"><a href="https://requestinfo.asu.edu/prospect_form"><button class="btn btn-info btn-block btn-lg">Request information</button></a></div>
+</div>
+
+#### ASU is now also accepting applications for the [MS in Robotics](https://ras.engineering.asu.edu/)!
+
+{% endcomment %}
+
+----
 
 <div class="row">
   <div class="col-sm-2"></div>
@@ -160,32 +207,10 @@ Our Mission
     </div>
   </div>
 </div>
-<!--###############################################################-->
+----
 
-<h2>
-Get Involved
-</h2>
 
-<div class="row">
-    <div class="col-md-4 text-center">
-      <h1><a href="{{site.base_path}}/labs"><i class="fa fa-flask" aria-hidden="true"></i></a></h1>
-      <p>
-      Find a <a href="{{site.base_path}}/labs">lab</a> to do research.    
-      </p>
-    </div>
-    <div class="col-md-4 text-center">
-    <h1><a href="{{site.base_path}}/courses"><i class="fa fa-university" aria-hidden="true"></i></a></h1>
-      <p><a href="https://ras.engineering.asu.edu/">Register</a> for the MS in robotics, or 
-      take a <a href="{{site.base_path}}/courses">course</a> taught by our faculty.
-      </p>
-    </div>
-    <div class="col-md-4 text-center">
-    <h1><a href="{{site.base_path}}/resources"><i class="fa fa-wrench" aria-hidden="true"></i></a></h1>
-      <p>
-      Make a robot in one of our <a href="{{site.base_path}}/resources">maker spaces</a>!
-      </p>
-    </div>
-</div>
+
 <!--
 <div class="row">
     <div class="col-md-12 text-center">
@@ -198,7 +223,10 @@ Get Involved
 
 <!--###############################################################-->
 
-<h2><a href="{{site.base_path}}/news">News</a></h2>
+
+<h2 class="text-center">
+<a href="{{site.base_path}}/news">News</a>
+</h2>
 <ul>
   {% for post in site.posts limit:5 %}
     <li>
