@@ -1,3 +1,7 @@
+---
+title: RISE Lab PhD Position
+---
+
 The Robotics and Intelligent Systems Laboratory (https://home.riselab.info) at the Ira A. Fulton Schools of Engineering, Arizona State University (ASU), invites applications for fully funded PhD positions starting in Fall 2020. The positions are in the area of wearable robotics, soft robotics, human-robot interaction, and autonomous driving. Self-motivated students with strong background in one or more of the following disciplines are encouraged to apply: 
 
 * Dynamic systems modeling and control

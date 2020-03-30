@@ -9,7 +9,10 @@ permalink: /hiring/
   </div>
 </div>
 
-{% for post in site.jobs %}
+
+{% assign sorted = site.jobs | sort: 'date' | reverse %}
+
+{% for post in sorted %}
 <div class="row">
     <div class="col-md-6 col-md-offset-2 col-xs-10 col-xs-offset-0">
     <ul>

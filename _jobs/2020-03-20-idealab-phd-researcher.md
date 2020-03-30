@@ -1,6 +1,5 @@
 ---
 title: PhD Student Researcher in the IDEAlab
-date: 2020-03-20
 ---
 
 ## PhD Student Researcher
