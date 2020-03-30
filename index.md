@@ -149,7 +149,7 @@ Our Mission
     </div>
     <div class="col-md-5 text-center">
       <div class="well">
-      <h1><a href="{{site.base_path}}/get-involved"><i class="fa fa-book-open" aria-hidden="true"></i></a></h1>
+      <h1><a href="{{site.base_path}}/get-involved"><i class="fa fa-book" aria-hidden="true"></i></a></h1>
       <p><a href="https://ras.engineering.asu.edu/">Learn</a> more about the MS in robotics, <a href="https://webapp4.asu.edu/programs/t5/graduate/false">explore</a> our other degrees, <a href="https://www.asu.edu/gradapp">apply now</a>, or <a href="https://requestinfo.asu.edu/prospect_form">request more information</a></p>
       <a href="{{site.base_path}}/get-involved"><button class="btn btn-primary btn-lg">Go...</button></a>
     </div>    
