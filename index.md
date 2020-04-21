@@ -52,7 +52,6 @@ carousel-images:
   Click <a href="https://swrobotics.engineering.asu.edu/" target="_new">here</a> to learn more about the Southwest Robotics Seminar, January 25 & 26, 2018
   </div>
 </div>
-{%endcomment%}
 
 
 <h2 class="text-center">
@@ -64,6 +63,7 @@ Please see our new [hiring page]({{ site.base_path }}/hiring)
 
 ---------------
 
+{%endcomment%}
 
 <!--###############################################################-->
 
@@ -207,6 +207,7 @@ Our Mission
     </div>
   </div>
 </div>
+
 ----
 
 
@@ -219,7 +220,6 @@ Our Mission
 </div>
 -->
 
-<hr/>
 
 <!--###############################################################-->
 
