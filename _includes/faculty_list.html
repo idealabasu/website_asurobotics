@@ -17,7 +17,7 @@
             <h4>{{item.title}}, {{item.school-name}}</h4>
             <p><a href="mailto:{{item.email}}">{{item.email}}</a></p>
             <p>{{item.description}}</p>
-            {% if item.lab_link %} <p><a href="{{item.lab_link}}" title="{{item.lab_link}}" target="_blank">{{item.lab_link}} <i class="fa fa-external-link"></i></a></p>{% endif %}
+            {% if item.lab_link %} <p><a href="{{item.lab_link}}" target="_blank">{{item.lab_name}} <i class="fa fa-external-link"></i></a></p>{% endif %}
             <p>{% assign tt = item.tags | split:',' | sort | uniq %}{% for tag2 in tt %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
           </div>
         </div>

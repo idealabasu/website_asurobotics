@@ -13,10 +13,11 @@
         <div class="thumbnail">
           {% if {{item.lab-image}} %}<p>{% if item.lab_link %}<a href="{{item.lab_link}}">{% endif %}<img class="img-responsive" src="{{site.base_path}}/assets/labs/{{item.lab-image}}" alt="lab image">{% if item.lab_link %}</a>{% endif %}</p>{% endif %}
           <div class="caption">
-            <h3>{% if item.lab_link %}<a href="{{item.lab_link}}">{% endif %}{{item.lab_name}}{% if item.lab_link %}</a>{% endif %}</h3>
+            <h3>{{item.lab_name}}</h3>
             <p>{{item.school}}</p>
             <p>{{item.lab_description}}</p>
             <p>{% assign tt = item.tags | split:',' | sort | uniq %}{% for tag2 in tt %}<span class="badge">{{tag2}}</span> {% endfor %}</p>
+            {% if item.lab_link %} <p><a href="{{item.lab_link}}" target="_blank">Lab Website <i class="fa fa-external-link"></i></a></p>{% endif %}
           </div>
         </div>
       </div>
