@@ -3,7 +3,7 @@ title: Robotics Resources
 description: Learn how to access robotics resources on campus
 permalink: /resources/
 image:
-  feature: 'photoshoot_new/aukes-21.jpg'
+  feature: 'photoshoot_new/Aukes-21.jpg'
 carousel-images:
 #  - DSC_0021.JPG
 #  - DSC_0007.JPG
