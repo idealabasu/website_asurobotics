@@ -40,13 +40,14 @@ carousel-images:
 
 <div class="row">
   <div class="col-md-4">
-    <img alt="" class="img-responsive" src="{{site.base_path}}/assets/images/drone-space.jpg" />
+    <img alt="" class="img-responsive" src="{{site.base_path}}/assets/images/03-Drone-Studio-RM-3316aa-gallery.jpg" />
   </div>
   <div class="col-md-8">
-    <h3>eDroneZone Lab</h3>
+  <h3>ASU Drone Studio</h3>
     <p>
+      <a href="https://engineering.asu.edu/drone/"  target="_blank">Link <i class="fa fa-external-link"></a><br>
       Tempe Campus<br>
-      Physical Education Building East (PEBE), Room 143
+      Bulldog Hall (BDH), Room 143
     </p>
   </div>
 </div>
