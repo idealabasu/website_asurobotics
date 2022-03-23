@@ -40,12 +40,12 @@ carousel-images:
 
 <div class="row">
   <div class="col-md-4">
-    <img alt="" class="img-responsive" src="{{site.base_path}}/assets/images/03-Drone-Studio-RM-3316aa-gallery.jpg" />
+    <img alt="" class="img-responsive" src="{{site.base_path}}/assets/images/drone-studio.jpg" />
   </div>
   <div class="col-md-8">
-  <h3>ASU Drone Studio</h3>
+    <h3>ASU Drone Studio</h3>
     <p>
-      <a href="https://engineering.asu.edu/drone/"  target="_blank">Link <i class="fa fa-external-link"></a><br>
+      <a href="https://engineering.asu.edu/drone/" target="_blank">Link <i class="fa fa-external-link"></i></a><br>
       Tempe Campus<br>
       Bulldog Hall (BDH), Room 143
     </p>
