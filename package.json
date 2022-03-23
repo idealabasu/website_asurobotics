@@ -10,7 +10,7 @@
     "bootstrap": "^3.4.1",
     "bootstrap-asu": "https://github.com/gios-asu/ASU-Web-Standards-Bootstrap",
     "font-awesome": "^4.7.0",
-    "jquery": "~3.4.0",
+    "jquery": "~3.5.0",
     "respondjs": "https://github.com/scottjehl/Respond"
   }
 }
