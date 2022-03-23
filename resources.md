@@ -140,14 +140,14 @@ The Polytechnic School, one of the six Fulton Schools of Engineering at Arizona 
     </div>
   </div>
   <div class="col-md-8">
-    <h3>Startup Lab</h3>
+    <h3>Innovation Hub</h3>
     <p>
-      <a href="https://poly.engineering.asu.edu/research/startuplabs/" target="_blank">https://poly.engineering.asu.edu/research/startuplabs/ <i class="fa fa-external-link"></i></a><br>
+      <a href="https://poly.engineering.asu.edu/innovation-hub/" target="_blank">https://poly.engineering.asu.edu/research/startuplabs/ <i class="fa fa-external-link"></i></a><br>
       Technology Center(TECH)
     </p><p>
-      "Making" space is available in the "Startup Lab", a 15,000 square-foot general-purpose fabrication and development area in the Technology Center which houses many of the larger shared pieces of fabrication equipment which can be used for class, project, and personal use.  
+      "Making" space is available in the "Innovation Hub", a 15,000 square-foot general-purpose fabrication and development area in the Technology Center which houses many of the larger shared pieces of fabrication equipment which can be used for class, project, and personal use.  
     </p><p>
-      The Startup Lab has several important pieces of equipment as well, including: A Shop Bot Wood 3D Router, a 50 Watt Epilog Laser Engraver and Cutter, a 90-Watt large-bed Full Spectrum laser cutter, a multi-material Objet Connex3 350 printer, an Objet 30 printer, and several ABS plastic 3D printers including a Dimension Elite, a Fortus 450, a Fortus 250, a UPrint, and four Lulzbot Minis.  We will also use the micro scribe digitizer probe, the 3D Scanner, Vinyl Cutter, Sewing Machine, Vacuum Former, Injection Molding Press and the variety of hand tools which are also available as needed.
+      The Innovation Hub has several important pieces of equipment as well, including: A Shop Bot Wood 3D Router, a 50 Watt Epilog Laser Engraver and Cutter, a 90-Watt large-bed Full Spectrum laser cutter, a multi-material Objet Connex3 350 printer, an Objet 30 printer, and several ABS plastic 3D printers including a Dimension Elite, a Fortus 450, a Fortus 250, a UPrint, and four Lulzbot Minis.  We will also have a micro scribe digitizer probe, the 3D Scanner, Vinyl Cutter, Sewing Machine, Vacuum Former, Injection Molding Press and the variety of hand tools which are also available as needed.
     </p>
   </div>
 </div>
