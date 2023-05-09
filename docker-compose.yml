@@ -3,7 +3,7 @@ version: '2.1'
 services:
   site:
     image: jekyll/builder
-    command: jekyll serve --force_polling
+    command: bash -c "sleep infinity"
     volumes:
       - ./:/srv/jekyll
     ports:
