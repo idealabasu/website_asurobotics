@@ -35,29 +35,4 @@ line-height: 1.44rem;}
       {% include list_labs.html %}
     </div>
   </div>
-
-  {% for tag3 in tag_words%}
-    {% capture jj %}{{ forloop.index0 }}{% endcapture %}
-    <div class="noborder panel panel-default">
-      <div id="{{tag3}}" class="panel-collapse collapse">
-        <h2>{{tag3}}</h2>
-        {% capture filtered_faculty1 %}{% for item3 in sorted_faculty %}{% assign tt = item3.tags | split:',' | sort | uniq %}{% for tag4 in tt %}{% if tag3 == tag4 %}{{item3.name}},{% endif %}{% endfor %}{% endfor %}{%endcapture%}
-        {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
-        {% include list_labs.html %}
-
-      </div>
-    </div>
-  {%endfor%}
-
-  {% for tag3 in school_tag_words%}
-    {% capture jj %}{{ forloop.index0 }}{% endcapture %}
-    <div class="noborder panel panel-default">
-      <div id="{{tag3}}" class="panel-collapse collapse">
-        <h2>{{tag3}}</h2>
-        {% capture filtered_faculty1 %}{% for item3 in sorted_faculty %}{% if tag3 == item3.school %}{{item3.name}},{% endif %}{% endfor %}{%endcapture%}
-        {% assign filtered_faculty2 = filtered_faculty1 | split:',' | uniq %}
-        {% include list_labs.html %}
-      </div>
-    </div>
-  {%endfor%}  
 </div>
